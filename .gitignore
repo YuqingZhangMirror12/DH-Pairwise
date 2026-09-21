@@ -37,7 +37,8 @@ checkpoints/
 artifacts/
 runs/
 outputs/
+results/
+logs/
 vendor/
 *.local.md
 *.local.json
-

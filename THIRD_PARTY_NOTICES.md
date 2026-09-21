@@ -26,6 +26,10 @@ Both adapters change the input/task/supervision; their results must not be
 presented as native-paper reproductions. Detailed adaptation notes accompany
 the source files.
 
+The `local_evidence_v2` GCN arms reuse these project adapters for additional
+Scorer-only context aggregation. They do not replace the frozen Matcher and
+are not new reproductions of either complete paper model.
+
 ## Colleague materials and research data
 
 The privately supplied `geo_attn` and training packages, vendor trees, trained
@@ -36,4 +40,3 @@ colleague's original training package.
 
 No new license for the project's original code is selected in this snapshot.
 Repository publication by itself must not be described as an MIT/Apache grant.
-

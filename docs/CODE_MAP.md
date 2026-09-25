@@ -2,6 +2,8 @@
 
 以下链接均相对仓库，可在 GitHub 或本地 clone 内使用。
 
+2026-09-25 新主线：[S7-Consensus 多组支持归并修复](S7_CONSENSUS_MERGE_REPAIR.md)。该说明包含 Matcher→共同位姿证据→精修→最终评分的完整入口；下表保留历史模块导航。
+
 | 组件 | 实现 |
 |---|---|
 | Mask、contour、Patch 抽样和主体 Matcher | [rachel_n512.py](../staging/pairwise_v0_2/models/rachel_n512.py) |

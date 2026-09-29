@@ -1,0 +1,9 @@
+{
+  "note": "Requires a separately supplied bound model/data/case plan; no data or weights included.",
+  "schema": "research-diagnostic-source/1",
+  "source_files": {
+    "diagnostics/internal_failure_audit_20260929/audit.py": "62ae469dda9d3d7929a5a6b955f117d9fcd6bab906594292c1fc603bf2330374",
+    "diagnostics/internal_failure_audit_20260929/layer_compare.py": "a673996ed3062bda23165d6d83fae8bc29f3db7bf4dfd0f8a824be90b0b43362",
+    "diagnostics/internal_failure_audit_20260929/seed_audit.py": "01a40612cba9c0844045c2f403977e5566bd8b94530777945fd5f272b5c566e5"
+  }
+}

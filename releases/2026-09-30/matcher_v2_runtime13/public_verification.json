@@ -1,0 +1,138 @@
+{
+  "accuracy_or_convergence_claim": false,
+  "code_binding_sha256": "50f31253df5fc873b6499e94abdf8ab8f8f9178accb68878465b5d2a438708b8",
+  "code_only": true,
+  "companion_remote_proofs": {
+    "control_queue_source_01": {
+      "receipt_sha256": "1e9e158b4e55c447a59c3d7266b7f982e21a51168f2adb41fab2668da186b6c0",
+      "remote_tests": 28
+    },
+    "reference_scorer_source_01": {
+      "receipt_sha256": "6c3104a3902df543a41a2dad3a1aa30131ae13d5c159fd9c17690b0eff6ad61f",
+      "remote_tests": 26
+    },
+    "reference_select_source_01": {
+      "receipt_sha256": "0a1fe9bed5f2c2e8bbee266f6f6f2f79ed1cfcb2f6516d61b74074bb12121cf9",
+      "remote_tests": 23
+    },
+    "scorer_cal_budget_source_03": {
+      "receipt_sha256": "21b97db818e83209ffb3d89560c4d57d8982a1310c9bba86080952e641d4cceb",
+      "remote_tests": 38
+    },
+    "supplemental_queue_source_01": {
+      "receipt_sha256": "a779098377fe9b125afcd904be9d58ea1441482fa139d5dce22b666662252d14",
+      "remote_tests": 27
+    }
+  },
+  "deployment_warning": "Public inventory differs from research inventory; never substitute this for live bound source.",
+  "formal_results_complete": false,
+  "gpu_gate": {
+    "accumulation": 1,
+    "active_module_changed": true,
+    "canvas": 800,
+    "contour_points": 512,
+    "effective_batch": 32,
+    "exposures_per_path": 384,
+    "gate_weights_discarded_before_formal_training": true,
+    "inactive_module_unchanged": true,
+    "microbatch_per_gpu": 16,
+    "precision": "FP32",
+    "rank_full_state_sha256": [
+      "4170b48de6a05bd059ddb8f8ecb2465998c1087ad7410ed6c3f53afff13bda6b",
+      "9b633fd5b5cbe4b2fd207f3a9cf1a9eb545e5db570871f4f51007f3395c28e74"
+    ],
+    "receipt_sha256": "2ab375bee2469f29ec63874acc7f6915c5874845b820cd976d10260f655621be",
+    "resumed_from_update": 1,
+    "returns": [
+      0,
+      0,
+      0
+    ],
+    "shared_state_sha256": "d2284c5392b8316b878fe16483f436479f6ab0409e7d6097d3d2f8eef0e96f2a",
+    "updates": 12,
+    "world_size": 2
+  },
+  "omitted": "Private inputs, checkpoint weights, per-case records, human labels, reference/vendor code.",
+  "public_cpu": {
+    "aggregate_receipt_sha256": "4fec7cc768c53a82ea69d3c68559e33d12e33303f88c7fbd098ecebc7f4a64f4",
+    "errors": 0,
+    "failures": 0,
+    "gpu_used": false,
+    "skipped": 0,
+    "source_unchanged": true,
+    "suites": [
+      {
+        "expected_tests": 194,
+        "passed": true,
+        "receipt_sha256": "f37d413d0dc1c507734ff2b5c92b134e6b0b1292918bf6109fbdeb016c4ad005",
+        "returncode": 0,
+        "suite": "runtime",
+        "tests": 194
+      },
+      {
+        "expected_tests": 36,
+        "passed": true,
+        "receipt_sha256": "d1ce0c4683eaa3d02a1afa40c69637cad867ee29f7a03fa11bb9264953c512b9",
+        "returncode": 0,
+        "suite": "diagnostics",
+        "tests": 36
+      },
+      {
+        "expected_tests": 5,
+        "passed": true,
+        "receipt_sha256": "0a85265b05bfa6275136c36f98845c4820411765cf09eb3ae5e48c73161b1ba6",
+        "returncode": 0,
+        "suite": "native_budget",
+        "tests": 5
+      },
+      {
+        "expected_tests": 23,
+        "passed": true,
+        "receipt_sha256": "00472f2cc5465b6a5c7d3dfb53a5722c0947d93dc2f820e2ef23be1a6cdb182b",
+        "returncode": 0,
+        "suite": "reference_native",
+        "tests": 23
+      },
+      {
+        "expected_tests": 26,
+        "passed": true,
+        "receipt_sha256": "ea66e79d3f9f3e87bb42cd1db0ccbbb73c26f2f576da31e20dc728c7c4ed5cc2",
+        "returncode": 0,
+        "suite": "reference_scorer",
+        "tests": 26
+      },
+      {
+        "expected_tests": 28,
+        "passed": true,
+        "receipt_sha256": "dfd4735f56e7d827beca72d9864265f80943c6687e24e93e442240c7e5e5b6b5",
+        "returncode": 0,
+        "suite": "control_queue",
+        "tests": 28
+      },
+      {
+        "expected_tests": 27,
+        "passed": true,
+        "receipt_sha256": "5ea9aa57b79c29f8a638a88daf912e0d1565049bb4c664061435a292b4d91760",
+        "returncode": 0,
+        "suite": "supplemental_queue",
+        "tests": 27
+      },
+      {
+        "expected_tests": 38,
+        "passed": true,
+        "receipt_sha256": "3500924d45e22806d08db15abf097d07161f5c779ca95d26088590cb7ade8a7e",
+        "returncode": 0,
+        "suite": "scorer_cal_budget",
+        "tests": 38
+      }
+    ],
+    "tests": 377,
+    "verifier_sha256": "30b59e1df61fa5ddee3bc952d852861136a13962416f77047ba75f908d11baf8"
+  },
+  "research_cpu": {
+    "receipt_sha256": "f412dcc20e26f7a1316dfdd425e177780a695e3b574bab8835420ff4141b8a4b",
+    "tests": 194
+  },
+  "schema": "matcher-v2-runtime13-public-verification/1",
+  "status": "passed"
+}

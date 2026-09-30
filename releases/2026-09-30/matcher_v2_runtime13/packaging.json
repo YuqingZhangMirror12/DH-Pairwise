@@ -1,0 +1,57 @@
+{
+  "all_companion_python_byte_identical": true,
+  "all_included_production_python_byte_identical": true,
+  "b3_gate_sha256": "2ab375bee2469f29ec63874acc7f6915c5874845b820cd976d10260f655621be",
+  "companion_python_files": 32,
+  "companion_remote_proofs": {
+    "control_queue_source_01": {
+      "receipt_sha256": "1e9e158b4e55c447a59c3d7266b7f982e21a51168f2adb41fab2668da186b6c0",
+      "remote_tests": 28
+    },
+    "reference_scorer_source_01": {
+      "receipt_sha256": "6c3104a3902df543a41a2dad3a1aa30131ae13d5c159fd9c17690b0eff6ad61f",
+      "remote_tests": 26
+    },
+    "reference_select_source_01": {
+      "receipt_sha256": "0a1fe9bed5f2c2e8bbee266f6f6f2f79ed1cfcb2f6516d61b74074bb12121cf9",
+      "remote_tests": 23
+    },
+    "scorer_cal_budget_source_03": {
+      "receipt_sha256": "21b97db818e83209ffb3d89560c4d57d8982a1310c9bba86080952e641d4cceb",
+      "remote_tests": 38
+    },
+    "supplemental_queue_source_01": {
+      "receipt_sha256": "a779098377fe9b125afcd904be9d58ea1441482fa139d5dce22b666662252d14",
+      "remote_tests": 27
+    }
+  },
+  "current_accuracy_or_convergence_claim": false,
+  "excluded_private_python": [
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_geo_v1/analysis_v1/analysis.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_geo_v1/probe_prepared.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_geo_v1/vendor/geo_attn_package/example_usage.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_geo_v1/vendor/geo_attn_package/model.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_geo_v1/vendor/geo_attn_package/preprocessing.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_training_v1/audit_training_manifest.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_training_v1/vendor/yuqing_training_package/src/model_pooling_extensions.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_training_v1/vendor/yuqing_training_package/src/train.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_training_v1/vendor/yuqing_training_package/src/training_data.py"
+  ],
+  "note": "This records source provenance, not terminal success or training status.",
+  "original_baseline_files": 659,
+  "private_datasets_checkpoints_case_plans_annotations_included": false,
+  "public_binding_is_not_research_runtime_binding": true,
+  "public_runtime_binding_sha256": "f9f5d24f8744b5f411103323ffe33545e8559d9a061a6a6d7f5e22ec4baa469a",
+  "public_runtime_python_files": 1421,
+  "research_cpu": {
+    "receipt_sha256": "f412dcc20e26f7a1316dfdd425e177780a695e3b574bab8835420ff4141b8a4b",
+    "tests": 194
+  },
+  "research_runtime_binding_sha256": "9558af206eb70de7f9b62689ad4c9baa57587f875cc8fa309c0d3fa5719cde6c",
+  "schema": "matcher-v2-runtime13-public-capsule/1",
+  "test_only_fixture_override": {
+    "path": "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/curriculum_scorer_eval_v1/test_evaluate.py",
+    "reason": "Replace private case-plan dependency with explicitly synthetic IDs and GT-exclusion tokens.",
+    "sha256": "f1c369d040bb2c06c83b3b35bf364a79e0b9473f32e21c3ea40ae90a061ecd7f"
+  }
+}

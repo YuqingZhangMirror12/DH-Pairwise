@@ -1,0 +1,98 @@
+{
+  "claim": "Implementation and bounded feasibility verified; no formal v2 accuracy claim.",
+  "cpu": {
+    "errors": 0,
+    "failures": 0,
+    "local_receipt_sha256": "364c7077f703132a11d7d47d2bb514cd9a17ac7f94b3883c8eb5221340e52ecf",
+    "private_runtime_tests_local": 183,
+    "private_runtime_tests_remote": 183,
+    "public_receipt_sha256": "a58105628261cdd9c08fa7a49fb4aaacf4ae77edc017a081c5585c005a66cc6e",
+    "public_tests": 183,
+    "remote_receipt_sha256": "5484be09640665f5d68317d440b154d17f663af3dba03c8a2482a62544d6fb73",
+    "skipped": 0
+  },
+  "excluded": "Private reference code/modules, arrays, weights, masks, human labels and fixed-case identities.",
+  "full_data": {
+    "complete_sha256": "ccc25e1b5c89f52cdee6202fe93d2cb9901474601c27511d63604f4ac9555d25",
+    "cross_split_model_input_overlap": 0,
+    "cross_split_source_family_overlap": 0,
+    "model_inference": false,
+    "pending": [
+      "Population acceptance and frozen E32 SELECT-only calibration.",
+      "Final source-lineage admission, execution-ledger binding and training GPU gates."
+    ],
+    "rows": {
+      "select": 900,
+      "test": 900,
+      "train": 6000
+    },
+    "status": "complete_generation_integrity_supervision",
+    "training_admitted": false
+  },
+  "gpu": {
+    "accumulation": 2,
+    "all_child_returncodes": [
+      0,
+      0,
+      0
+    ],
+    "complete_model_optimizer_rank_rng_exact_replay": true,
+    "completed_updates": 12,
+    "effective_batch": 32,
+    "enabled_branch_nonzero_after_update1": true,
+    "exposures_per_path": 384,
+    "formal_started": false,
+    "formal_updates": 0,
+    "full_size": {
+      "canvas": 800,
+      "contour_points": 512
+    },
+    "gate_only_complete_sha256": "7478210614f82036836acde3107e6694ceda30a6e35190d2a947c3888dc89a53",
+    "gate_weights_not_formal": true,
+    "gpu_gate_sha256": "882467507c110009eb4781703e321cbad404f46331f00f6100ba9781f1acf5c8",
+    "gradient_step_files": 48,
+    "gradient_tensors_per_rank": 111,
+    "inactive_scorer_unchanged": true,
+    "microbatch_per_gpu": 8,
+    "minimum_device_capacity_mib": 24080.875,
+    "peak_allocated_mib": 6769.80078125,
+    "peak_reserved_mib": 8638.0,
+    "precision": "FP32",
+    "prior_failed_attempts": [
+      "strict CUDA cumsum unsupported; fixed deterministic prefix scan",
+      "missing gradient receipt directory; fixed and real-disk regression tested"
+    ],
+    "rank_full_state_sha256": [
+      "7b7fcf5af6c97622ff308193021a402a9ba66df817b83194db08f68e493da1bf",
+      "d7c1cae6e12893dc93d8a106fd256d46e924a59cd0c58280a52d7b8c6ba16eca"
+    ],
+    "resumed_from_update": 1,
+    "shared_state_sha256": "3c4fd48078e42961afe3d78d59e1d3bae677b9b09e209d9d4685f1a15c2d5195",
+    "status": "passed",
+    "world_size": 2
+  },
+  "reference_comparison": {
+    "gradient_max_abs": 1.043081283569336e-07,
+    "mapped_parameter_tensors": 68,
+    "new_parameters": 410213,
+    "nonzero_output_max_abs": 2.86102294921875e-06,
+    "pairs": 10,
+    "real_forward_only": 6,
+    "receipt_sha256": "1e5a3dc29cab39be118f9f876458352e0cb025ac656e6733feb03771e27b39b0",
+    "synthetic_backward": 4,
+    "zero_initialization_exact_legacy_parity": true
+  },
+  "schema": "matcher-v2-public-verification/1",
+  "source": {
+    "original_baseline_files": 659,
+    "production_code_byte_identical_to_gpu_test": true,
+    "public_binding_sha256": "179abb93b88c78890d16b3c2ee4dae4a9ff3512c5fb6f490a7fe1147f51e4d99",
+    "public_code_files": 1409,
+    "research_runtime_binding_sha256": "7ecbe67e262fee81043d985026f632b028ff0cb800ba2ffbc9e66c414175f71b",
+    "test_only_override": {
+      "path": "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/curriculum_scorer_eval_v1/test_evaluate.py",
+      "reason": "Replace private case-plan dependency with explicitly synthetic IDs and GT-exclusion tokens.",
+      "sha256": "f1c369d040bb2c06c83b3b35bf364a79e0b9473f32e21c3ea40ae90a061ecd7f"
+    }
+  }
+}

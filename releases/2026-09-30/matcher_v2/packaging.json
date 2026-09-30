@@ -1,0 +1,29 @@
+{
+  "actual_new_formal_updates": 0,
+  "all_included_production_python_byte_identical": true,
+  "code_files": 1409,
+  "excluded_private_code": [
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_geo_v1/analysis_v1/analysis.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_geo_v1/probe_prepared.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_geo_v1/vendor/geo_attn_package/example_usage.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_geo_v1/vendor/geo_attn_package/model.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_geo_v1/vendor/geo_attn_package/preprocessing.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_training_v1/audit_training_manifest.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_training_v1/vendor/yuqing_training_package/src/model_pooling_extensions.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_training_v1/vendor/yuqing_training_package/src/train.py",
+    "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/colleague_training_v1/vendor/yuqing_training_package/src/training_data.py"
+  ],
+  "extra_package": "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/straight_seam_v42_reuse",
+  "original_baseline_files": 659,
+  "private_case_plan_omitted": true,
+  "private_datasets_weights_annotations_included": false,
+  "public_binding_is_not_research_runtime_binding": true,
+  "public_source_binding_sha256": "179abb93b88c78890d16b3c2ee4dae4a9ff3512c5fb6f490a7fe1147f51e4d99",
+  "research_runtime_binding_sha256": "7ecbe67e262fee81043d985026f632b028ff0cb800ba2ffbc9e66c414175f71b",
+  "schema": "matcher-v2-public-capsule/1",
+  "test_only_fixture_override": {
+    "path": "experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/curriculum_scorer_eval_v1/test_evaluate.py",
+    "reason": "Replace private case-plan dependency with explicitly synthetic IDs and GT-exclusion tokens.",
+    "sha256": "f1c369d040bb2c06c83b3b35bf364a79e0b9473f32e21c3ea40ae90a061ecd7f"
+  }
+}

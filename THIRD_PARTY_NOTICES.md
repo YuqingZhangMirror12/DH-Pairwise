@@ -40,3 +40,12 @@ colleague's original training package.
 
 No new license for the project's original code is selected in this snapshot.
 Repository publication by itself must not be described as an MIT/Apache grant.
+
+## 2026-09-30 external references
+
+The Matcher v2 capsule contains the project's independent adapter implementation
+and an optional comparison harness, not the externally supplied in-tree source
+tree, reference arrays or E32 checkpoint. The straight-seam wrappers accept the
+user-supplied v4.2 generator modules as an external dependency; those three
+generator modules and their datasets are not redistributed. Comparison results
+describe numerical parity checks, not a new license or accuracy claim.

@@ -1,3 +1,11 @@
+<!-- BEGIN B3 ENDPOINT HEADS 20261003 -->
+# New SELECT scan and endpoint-matched heads · 2026-10-03
+
+[16个检查点的新SELECT完整结果](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/matcher-v2-20260930/releases/2026-10-03/b3_endpoint_heads/docs/SELECT_SCAN.md) · [终点Matcher配套Patch/Stats双卡训练代码](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/matcher-v2-20260930/releases/2026-10-03/b3_endpoint_heads/README.md)
+
+SELECT已完整结束；按冻结容差带内loss规则选出U29667。另行启动的新头实验按用户指定固定U31667，每种Scorer两GPU；尚无最终效果。两条实验独立，不更改历史结果。
+<!-- END B3 ENDPOINT HEADS 20261003 -->
+
 <!-- BEGIN B3 PAPER 20261003 -->
 # Latest paper handoff · B3 · 2026-10-03
 

@@ -33,3 +33,7 @@ python analysis/verify_public.py
 未发布：图像/NPZ/proof/target、训练权重、缓存、逐对预测或pair ID、人工标注、服务器身份/凭据、未获公开再分发许可的上游base_tearing/v4.2生成器和vendor。已有本地111例资料包未删除。上游许可范围继续见 [THIRD_PARTY_NOTICES.md](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/9dff51b32dc73b6a915c6954f6ecd40e48708d37/THIRD_PARTY_NOTICES.md)。
 
 历史源码可能保留原实验绝对路径或对外部依赖的引用，作为冻结实现保留，不表示写论文需要服务器权限，也不承诺它们在任意目录无需配置即可执行。读代码优先按本地图，不要将多个发布快照混入同一个运行目录。
+
+## 2026-10-03 下午的独立追加
+
+[终点双卡新头代码与实验边界](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/matcher-v2-20260930/releases/2026-10-03/b3_endpoint_heads/README.md) · [新SELECT扫描结果](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/matcher-v2-20260930/releases/2026-10-03/b3_endpoint_heads/docs/SELECT_SCAN.md)。追加代码固定提交 `be480140168cfbf102a0683292b9ba3a61af3c90`；上表原代码链接和字节保持不变。新头未完成，不用旧头指标代填。

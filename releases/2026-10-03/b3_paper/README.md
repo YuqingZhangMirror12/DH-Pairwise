@@ -5,6 +5,8 @@
 **本文件包含已经完成的新 CAL＋B3 终点四方向 TEST 结果。** 本轮只读取冻结代码、训练回执和逐对预测，重算同口径统计；没有新训练、重新生成数据、重新推理历史开发集、在 TEST 上调阈值或改动原文件。终点推理原有任务于 **2026-10-03 11:08:59 CST** 完成，实际退出码 0；全部 1,587 个 CAL 与 283 个真实 TEST 的四方向预测、模型不变、清单及摘要 SHA、先封存阈值再启动 TEST 的顺序已核验。
 
 
+2026-10-03 15:58补充：[新SELECT完整扫描](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/matcher-v2-20260930/releases/2026-10-03/b3_endpoint_heads/docs/SELECT_SCAN.md)已核验，冻结规则选出U29667。[原终点U31667配套双卡Scorer源码与安排](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/matcher-v2-20260930/releases/2026-10-03/b3_endpoint_heads/README.md)已独立发布，Patch使用GPU0/1、Stats使用GPU2/3；15:48已确认正式训练进程启动，尚无新头最终结果。**下文真实TEST仍属于“终点Matcher＋旧Patch”，不能误写成新头重训结果。**
+
 ## 阅读入口与本次新增内容
 
 本公开版供无 SSH 的论文写作对话阅读。**代码链接固定到 `9dff51b32dc73b6a915c6954f6ecd40e48708d37`**；旧训练镜像原样保留，最新推理、生成发布和标签修复另列，互不冒充。代码与机器可读汇总可直接从 GitHub 下载；私有图像/权重/逐对预测不公开，已有本地案例包继续可用。
@@ -26,7 +28,7 @@
 2. **论文中必须给“B3”加权重/推理版本后缀。** 历史 B3 使用旧仿真 SELECT 选出的 Matcher U9667；最新推理使用用户指定的终点 Matcher U31667，仍接在 U9667 Matcher 下训练的已有 Patch U29667 头。不能称“终点 Matcher 和头重新配套训练”。
 3. 最新四方向方案在吐鲁番 TEST 的 Pair-F1 为 **0.9391**，同终点同头单方向为 **0.8269**；敦煌候选覆盖 **53/59→57/59**、最终布局 **49/59→52/59**，但预登记主阈值下误报 **1→12**，Pair-F1 **0.8785→0.8455**。**多方向改善候选与域外召回，不等于在每个运行点都全面提高分类。**
 4. 基线比较有明确缺口：PairingNet/ShreddingNet 与新版敦煌清单共同覆盖 **331 对（292 正、39 负）**，不是完整 800 对；吐鲁番共同覆盖 **301 个正例**，不能据此报告这两基线在 602 对上的 F1 或误报率。本文给出诚实的交集对比及 v17/B3 的完整集与保留 TEST 表。
-5. 数据增强、课程、架构、训练预算、选模和推理方式在多个历史版本间同时改变，不能把全部提升归因于某一模块。新标签修复覆盖层尚未用于这些模型训练；新混合 SELECT 已发布，但**本轮没有用它重新选择 B3 checkpoint**。
+5. 数据增强、课程、架构、训练预算、选模和推理方式在多个历史版本间同时改变，不能把全部提升归因于某一模块。新标签修复覆盖层尚未用于这些模型训练；新混合SELECT的后续完整扫描已选出U29667，见顶部补充；下文真实TEST表仍对应扫描之前的用户指定终点与旧Patch，不是新配套头结果。
 
 数据章节已有材料，不在本文件重写：[仿真数据方法与案例](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/matcher-v2-20260930/releases/2026-10-03/b3_paper/docs/SIMULATION_METHODS.md)、[新 SELECT/CAL 构造、目录与实际统计](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/matcher-v2-20260930/releases/2026-10-03/b3_paper/docs/SELECT_CAL.md)。
 

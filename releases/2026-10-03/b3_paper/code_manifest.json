@@ -1,0 +1,1163 @@
+{
+  "schema": "project_code_text_release_v1",
+  "files": [
+    {
+      "path": "code/rotation_ensemble_v1/endpoint_calibration.py",
+      "sha256": "dc3bd386ccd81f84ac13527f8a1d095580ba2be11389cd8f02f1e4db29537b24",
+      "bytes": 20151,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/rotation_ensemble_v1/worker.py",
+      "sha256": "972a7d6bb1f24a197bc0c95d81a18f5b19872ababbe727515f6f98f7580bfae5",
+      "bytes": 8182,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/rotation_ensemble_v1/metrics.py",
+      "sha256": "b9053427fce58d5114d899d9d47395cb9216bf3826ec94db34200f75f38d3764",
+      "bytes": 3871,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/rotation_ensemble_v1/controller.py",
+      "sha256": "196d458c39d5b583e6f9c1fda9e48e358aec9b3052d0f2548e2f0c776c90ec76",
+      "bytes": 4566,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/rotation_ensemble_v1/protocol.py",
+      "sha256": "f1ea735a599379a01403eaef5cb08f433115046c1fcd60991051be2d97fe210c",
+      "bytes": 6377,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/rotation_ensemble_v1/io.py",
+      "sha256": "3cb8a2d5fcbeabdd5c46b08f3ea927adc2d1c4db480f351a2b336b0bd43a694d",
+      "bytes": 1520,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/rotation_ensemble_v1/__init__.py",
+      "sha256": "0fd69f6b329011091d59182d18b3827b67962a61dce484e4c537674136c22ef3",
+      "bytes": 85,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/rotation_ensemble_v1/core.py",
+      "sha256": "aba40d6e68d96424a2c1324ca9520b10efd4f379a692fab5419c22fb5a044762",
+      "bytes": 6529,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/rotation_ensemble_v1/runtime.py",
+      "sha256": "8957465b39d7bf70223b36150c28112d9ef44c4140ada14eb948cfef245c3382",
+      "bytes": 7106,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/rotation_ensemble_v1/test_endpoint_calibration.py",
+      "sha256": "21130a724b64b5b3f7a9243035d3afec7f2b230d70bc29ce6f39f4c263f61546",
+      "bytes": 3121,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/rotation_ensemble_v1/inference.py",
+      "sha256": "51e96d7d2983ef4f3cd8f37304270371dbcebd24b119c39e06b0852a27216685",
+      "bytes": 6339,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/rotation_ensemble_v1/tests.py",
+      "sha256": "abe4ce11e4f0014bd779b3edfba21e767e44203b3838d2206473a0caf1e6ac3a",
+      "bytes": 4898,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/rotation_ensemble_v1/report.py",
+      "sha256": "73a7f21a8cfa45e3b8bb4544ff7166ad428799bd0c8d3bda6bca5aecd4abeab9",
+      "bytes": 11054,
+      "role": "endpoint_cal_source_02; exact finished CAL/TEST Python"
+    },
+    {
+      "path": "code/select_cal_build_source07/model_selection_v2/heldout_parallel_build.py",
+      "sha256": "19dcdd70f03900e15fb1b6db42edc77c7fefca56234ac6290ee7e571d31d1b64",
+      "bytes": 9856,
+      "role": "frozen CPU generation source07"
+    },
+    {
+      "path": "code/select_cal_build_source07/model_selection_v2/heldout_parallel_plan.py",
+      "sha256": "84b23b5f7e2baefee1f5448aa9e79cac4cccd1cc0a951057f63afdbee9c76af1",
+      "bytes": 3124,
+      "role": "frozen CPU generation source07"
+    },
+    {
+      "path": "code/select_cal_build_source07/model_selection_v2/heldout_reduce_plan.py",
+      "sha256": "870d3941057d6fd1be4c16c95c6290a0b475f4d90221c397bca01a954c2de593",
+      "bytes": 7296,
+      "role": "frozen CPU generation source07"
+    },
+    {
+      "path": "code/select_cal_build_source07/model_selection_v2/heldout_reduce_run.py",
+      "sha256": "0a41fae4e7908b2395e7861844c55e8cd3d47b6ee1d865d64d07d1826fe0932a",
+      "bytes": 19556,
+      "role": "frozen CPU generation source07"
+    },
+    {
+      "path": "code/select_cal_build_source07/model_selection_v2/heldout_run.py",
+      "sha256": "bf70e2d266d6a6be7c376a09d233e8fdcf6a7b0dc2a65972648956d4a92a2735",
+      "bytes": 12309,
+      "role": "frozen CPU generation source07"
+    },
+    {
+      "path": "code/select_cal_build_source07/model_selection_v2/heldout_augment.py",
+      "sha256": "c0a36010992d5017968877b7ae230a86db78689809b43107809937b1942b0a0f",
+      "bytes": 13197,
+      "role": "frozen CPU generation source07"
+    },
+    {
+      "path": "code/select_cal_build_source07/model_selection_v2/heldout_plan.py",
+      "sha256": "f9b166bcb873bd76c2c27647a2e0545a03286b4989a22b69e83a3110c84f3945",
+      "bytes": 9802,
+      "role": "frozen CPU generation source07"
+    },
+    {
+      "path": "code/select_cal_build_source07/model_selection_v2/heldout_extend_plan.py",
+      "sha256": "e9a62601f1c0df53e2c240fff1e72117445a70eaf6d7da8b3750386a7dc1327e",
+      "bytes": 22346,
+      "role": "frozen CPU generation source07"
+    },
+    {
+      "path": "code/select_cal_build_source07/model_selection_v2/heldout_adopt.py",
+      "sha256": "d4b18a8390006997157aeca1bd8cd442d60c79f19a4f3df8990398c8fa1e5028",
+      "bytes": 21475,
+      "role": "frozen CPU generation source07"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_parallel_build.py",
+      "sha256": "19dcdd70f03900e15fb1b6db42edc77c7fefca56234ac6290ee7e571d31d1b64",
+      "bytes": 9856,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_publish.py",
+      "sha256": "98de0fba9e33eb9a755d88e490403d374d04884693772a16e8aecf7a25bfa3d6",
+      "bytes": 5997,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_plan.py",
+      "sha256": "f9b166bcb873bd76c2c27647a2e0545a03286b4989a22b69e83a3110c84f3945",
+      "bytes": 9802,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_reduce.py",
+      "sha256": "808a0d76e65c996ff9bd390c2741a2a8d747aaec5b6c6c5b5a68f611d3810e59",
+      "bytes": 4004,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_protocol.py",
+      "sha256": "a2162640e472e89673b8ba3540aaabcc09665e5a780f8ab239cdcc0b702d438e",
+      "bytes": 7918,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_curriculum_release.py",
+      "sha256": "cb12da72d1ab9284f4ddd9e3440e013e2837d47edf71f0eca069bfe69cab1b30",
+      "bytes": 25251,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_build.py",
+      "sha256": "0c98410436312a9b0a1d0f1400ebd706061893d6a555bd8b8873683f0ba6ee1b",
+      "bytes": 5504,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_augment.py",
+      "sha256": "c0a36010992d5017968877b7ae230a86db78689809b43107809937b1942b0a0f",
+      "bytes": 13197,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_straight.py",
+      "sha256": "91cc441ad28c2dd09b3d955145a28fa35b8b0f577e32cff5a3f763c5734030f4",
+      "bytes": 30719,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/posthoc_export.py",
+      "sha256": "248276525545d2e169be3bffc338772ba46e16f7cd924b737cdf99fad0cf4afa",
+      "bytes": 15828,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_adopt.py",
+      "sha256": "d4b18a8390006997157aeca1bd8cd442d60c79f19a4f3df8990398c8fa1e5028",
+      "bytes": 21475,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/protocol.py",
+      "sha256": "ea12f0412be107487e053e405e26621094b4f546d296928d56a1bcbfb91ee982",
+      "bytes": 13466,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_reduced_release.py",
+      "sha256": "f11fa89792fee6501741476146413e06ceac665fca1d1c0cc2b349432e4d0106",
+      "bytes": 2841,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_extend_build.py",
+      "sha256": "78c9ded000d2328aa3b639535d9a7efa6dbccb89d2bf8dbe1e5383429cfd5181",
+      "bytes": 1490,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_base_release.py",
+      "sha256": "081ecbb8be236083f7764e5d828fbebc33656b8fa0f736a95634bc5cce94a633",
+      "bytes": 39137,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_selection.py",
+      "sha256": "8faa7f0da93de6fe15d7a50f02df12171d898231a05fadbb3f845b4bfd340717",
+      "bytes": 8683,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_adopt.py",
+      "sha256": "c3ce305af51c60353fe2efc3d1f8b0452cb143f8469697f9c74a91a53c7a36e5",
+      "bytes": 14148,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_extend_run.py",
+      "sha256": "3f73ba2175ce62774d32692221a5acf91bcbd7835e6e368ad67f8d2f59842105",
+      "bytes": 2868,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_parallel_plan.py",
+      "sha256": "84b23b5f7e2baefee1f5448aa9e79cac4cccd1cc0a951057f63afdbee9c76af1",
+      "bytes": 3124,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_reduce_build.py",
+      "sha256": "cb9f5811c28a8e29311263d06d3a02bef1ea10526a20e7edb1d3b650665ab199",
+      "bytes": 10353,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_release.py",
+      "sha256": "e550ae932ec745558ea359c7e488780512696bcc312ae5b9272b5eb518e74e32",
+      "bytes": 15363,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_augment.py",
+      "sha256": "e2816c263ccc6f648245edc007ca887275b5825b62e23bc553a90fb82ec8ddda",
+      "bytes": 2658,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/native_eval.py",
+      "sha256": "37494f1eb5a78f8b91a984095ecdfdc721a7b150476ac97212c7c7cf30c4bdc2",
+      "bytes": 11059,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_extend_run.py",
+      "sha256": "da9bab02c9f95bd55ba5ce8feca28509913dc34ea30e1099ea0c98c3c466ca25",
+      "bytes": 10901,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_publish.py",
+      "sha256": "7a1f11a77481bb297b44a2afec3b3372151771a28d53448822339b78d2b4dfd9",
+      "bytes": 13611,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_reduce_run.py",
+      "sha256": "0a41fae4e7908b2395e7861844c55e8cd3d47b6ee1d865d64d07d1826fe0932a",
+      "bytes": 19556,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_fixed_source.py",
+      "sha256": "f6fafb4801062dee77fea336fc7754acba91347cb6207dd409f24139406aaca1",
+      "bytes": 3344,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_reduced_release.py",
+      "sha256": "d7b280a597ff1be43282aeb3e3241cb7f681cb542d2a46694e150c2a21128c0f",
+      "bytes": 25015,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_run.py",
+      "sha256": "c598233ac505d521c77d5323cf97780753ba09ffbdb0b2fbe18804b3d52b6282",
+      "bytes": 2602,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_extend_plan.py",
+      "sha256": "3ea3b6adc833ab886e2bc76779a74e0ebc00d11ca116e34483fa4b44a99891af",
+      "bytes": 11659,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/selection.py",
+      "sha256": "ae372b5c01945ed0046c29005f02ffcc697f591f4c992746357efdf4ba7f2f64",
+      "bytes": 8633,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_base_release.py",
+      "sha256": "d619c0bbdaf06dccd199dbb248045892335bae96fcbd537be999fee7bff4a851",
+      "bytes": 12072,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_plan.py",
+      "sha256": "40445dbc9bc059717bfbb25fcb5313a236638d03202847368dbf1b190ba25446",
+      "bytes": 1771,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_shortfall_supplement.py",
+      "sha256": "6931f7045a5ce1ccfc8024017dc0d7e07dfbf842567b5b162ca537969b87df71",
+      "bytes": 6098,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_native_eval.py",
+      "sha256": "faa86039ea12efa58207f51f6f689e8bc2a48bb11d534fd6a2188076b9686b8b",
+      "bytes": 9148,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_release.py",
+      "sha256": "ac738c3a958330f25776076c4ca2ddb1c71005c101ce8602a153157cae79ed3e",
+      "bytes": 8319,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_curriculum_release.py",
+      "sha256": "fbb88b72c5716b5fa05d77b477a93a98cc4aeba4ed88395ff03053592ce40ba2",
+      "bytes": 42259,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_authorized_dedup_release.py",
+      "sha256": "20ec49574db11bfdf01a03902dad55c93889cdf9c20c999e3ea1a9035bce7e50",
+      "bytes": 3295,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_posthoc_export.py",
+      "sha256": "2916d1b5d2528db0c3f34d0d001b1e76deaa1e06a6d61f4ead801402da7cbd60",
+      "bytes": 16735,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_extend_plan.py",
+      "sha256": "e9a62601f1c0df53e2c240fff1e72117445a70eaf6d7da8b3750386a7dc1327e",
+      "bytes": 22346,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_run.py",
+      "sha256": "bf70e2d266d6a6be7c376a09d233e8fdcf6a7b0dc2a65972648956d4a92a2735",
+      "bytes": 12309,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_straight.py",
+      "sha256": "96da116993286ff27cf5c47eeba033b352b24e912a16a0768639a5a920097437",
+      "bytes": 12748,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_reduce_plan.py",
+      "sha256": "870d3941057d6fd1be4c16c95c6290a0b475f4d90221c397bca01a954c2de593",
+      "bytes": 7296,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/test_heldout_parallel.py",
+      "sha256": "ab7dfdbb1002ec355c0b6a4cb92793e8bfdcd12d04eed0506766d577bb34e7a6",
+      "bytes": 3953,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_shortfall_supplement.py",
+      "sha256": "ec7451eeede8c1fafd38aff5b7ef66baaec3b0841bf224c3ce5cf77aa4b063c6",
+      "bytes": 20035,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/select_cal_release_source03/model_selection_v2/heldout_extend_build.py",
+      "sha256": "16bb8340030026a99ddf29d6d0b7548eec96b4501a8df68d8b71725da904a3fe",
+      "bytes": 6111,
+      "role": "final authorized deduplication release source03"
+    },
+    {
+      "path": "code/correspondence_relabel_v2/build_full.py",
+      "sha256": "6113fe04357e0afd3d0a8c556f6ca9a7fc1f82acef4790a295a8f06976eecfdc",
+      "bytes": 10099,
+      "role": "label overlay v2; no B3 retraining"
+    },
+    {
+      "path": "code/correspondence_relabel_v2/catalog.py",
+      "sha256": "47a0cdd1ec14b9b6abfce8af3fd7ef2de60a66a2d7cc7524999b3f16cc0bfb2d",
+      "bytes": 3890,
+      "role": "label overlay v2; no B3 retraining"
+    },
+    {
+      "path": "code/correspondence_relabel_v2/check_pilot_loader.py",
+      "sha256": "d831e41e65ad6104caf33b1f02124789a261714ebd9b092346138923e5966cb5",
+      "bytes": 2735,
+      "role": "label overlay v2; no B3 retraining"
+    },
+    {
+      "path": "code/correspondence_relabel_v2/driver.py",
+      "sha256": "6343866c7aaa103a05171d545f1f8cde76845340444daad85e3b085414bbf386",
+      "bytes": 2385,
+      "role": "label overlay v2; no B3 retraining"
+    },
+    {
+      "path": "code/correspondence_relabel_v2/export_pilot.py",
+      "sha256": "0412a4b200f3130ac2c9367555add3835ba22f1c98bea680dc5d2c0ee2bd0aca",
+      "bytes": 4654,
+      "role": "label overlay v2; no B3 retraining"
+    },
+    {
+      "path": "code/correspondence_relabel_v2/overlay_dataset.py",
+      "sha256": "b4b5c1e0b2e5e41f7002a2ff86a5cf564644cd04fead6f8298b747b1ab7c1d10",
+      "bytes": 1468,
+      "role": "label overlay v2; no B3 retraining"
+    },
+    {
+      "path": "code/correspondence_relabel_v2/relabel.py",
+      "sha256": "ee22a2b6eaf85495b41a21be82495a23c08a2105f9bc9c5519494925105c5df2",
+      "bytes": 25993,
+      "role": "label overlay v2; no B3 retraining"
+    },
+    {
+      "path": "code/correspondence_relabel_v2/run_pilot.py",
+      "sha256": "c06dbe7e02552c6db89872622c749e3538412ea78b65f183394adf0af33e3a8e",
+      "bytes": 4005,
+      "role": "label overlay v2; no B3 retraining"
+    },
+    {
+      "path": "code/correspondence_relabel_v2/test_relabel.py",
+      "sha256": "2a6222a8d52cbc06a60a739c4f19481dd1c35a475329bc1a758ce6cac2aec045",
+      "bytes": 7801,
+      "role": "label overlay v2; no B3 retraining"
+    },
+    {
+      "path": "code/terminal_repair_source_03/common.py",
+      "sha256": "2acf245b56c3488ea2e8ae155b51dbc8fbb6cbfa2411eb068cd7a4e84455cb2f",
+      "bytes": 3131,
+      "role": "B3 evaluation-only adapter root-mode repair"
+    },
+    {
+      "path": "code/terminal_repair_source_03/continue_b3.py",
+      "sha256": "6e45dd9d89951b97af56abd674183f31733aacfac3e16b845ae5c1ae6f514ce8",
+      "bytes": 9301,
+      "role": "B3 evaluation-only adapter root-mode repair"
+    },
+    {
+      "path": "code/terminal_repair_source_03/controller.py",
+      "sha256": "0d02f93c0c404d3cddc4177305438a3a6bdabae8ff37a610aacd3366465fe6c0",
+      "bytes": 17448,
+      "role": "B3 evaluation-only adapter root-mode repair"
+    },
+    {
+      "path": "code/terminal_repair_source_03/cpu_prepare.py",
+      "sha256": "15bc5df59b6507306a819e88ba1758849de42653384bbca6da72ce6b38f17ffd",
+      "bytes": 1183,
+      "role": "B3 evaluation-only adapter root-mode repair"
+    },
+    {
+      "path": "code/terminal_repair_source_03/entry.py",
+      "sha256": "f74e093bdc4f43bb4c1dd826e83e5470123cd0359f78f240081025f621b07c17",
+      "bytes": 6625,
+      "role": "B3 evaluation-only adapter root-mode repair"
+    },
+    {
+      "path": "code/terminal_repair_source_03/live_preflight.py",
+      "sha256": "29f24288991ab05238a95ec27be6eb94b3e350d0b8c90bddeb8d91a31a93467a",
+      "bytes": 2510,
+      "role": "B3 evaluation-only adapter root-mode repair"
+    },
+    {
+      "path": "code/terminal_repair_source_03/modefix_smoke.py",
+      "sha256": "3417ac4167bf5bdac0912edbb2beaed878d15d325cd82d6f2238adf93f8010a8",
+      "bytes": 4353,
+      "role": "B3 evaluation-only adapter root-mode repair"
+    },
+    {
+      "path": "code/terminal_repair_source_03/pipeline.py",
+      "sha256": "16522b6163951ae8ee0101ed2ff9b49a0db559a910a613124bfb81bca1e7a267",
+      "bytes": 8075,
+      "role": "B3 evaluation-only adapter root-mode repair"
+    },
+    {
+      "path": "code/terminal_repair_source_03/strict_population_bridge.py",
+      "sha256": "6ff50bcf68462aa659beb33472a2e7a14b698220336abaf6e7758c134c970456",
+      "bytes": 2765,
+      "role": "B3 evaluation-only adapter root-mode repair"
+    },
+    {
+      "path": "code/terminal_repair_source_03/test_repair.py",
+      "sha256": "d0c0c9678f894604ad940fe375bc685683f0b65cf3c296726e1e09d39e5ed6f5",
+      "bytes": 28343,
+      "role": "B3 evaluation-only adapter root-mode repair"
+    },
+    {
+      "path": "code/data_methods/curriculum/__init__.py",
+      "sha256": "f390befa177e50ef31a69953761db831517932278caacc0f03b73a5fcf5c8d90",
+      "bytes": 161,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/admission.py",
+      "sha256": "0ee15c78702d080ff856c11f7264c55698bc68e9f3eb6b03a99fe5d2b36e8f70",
+      "bytes": 3514,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/attach_connectable_audit.py",
+      "sha256": "7d518a30ff3308ed2a7c228305fc24c7fc10f4ac4a715d71cb6a01165019a895",
+      "bytes": 5363,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/audit.py",
+      "sha256": "8709e93bdc095bd1745898a7373237629a8fec43b0fb8f40daa51c79607db4a4",
+      "bytes": 21427,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/audit_connectable30.py",
+      "sha256": "4894f9c9032e4bd41bc6d28bba7dbef8c76c5e7019b1daad3d2563022a974fc4",
+      "bytes": 6990,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/build_snapshot.py",
+      "sha256": "edcc33dd51eab751246a16077a8354c33d67515cfbc54b81ba51c090747c464c",
+      "bytes": 6234,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/build_snapshot_crop20.py",
+      "sha256": "ca7b5aafd55f25846c36beb831119e9845ced5e5cee758240202a264f49c8f48",
+      "bytes": 9831,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/build_snapshot_unprotected.py",
+      "sha256": "f1ed271cd54a6e95344237568ac1c74161e1b9dd480e6b890278b2e2a349ef74",
+      "bytes": 9495,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/crop_floor.py",
+      "sha256": "99709e686dac4618409864d935724d76aa3a5f0a1dac616511134cf6a5101707",
+      "bytes": 1626,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/evidence.py",
+      "sha256": "aa1071079aa3320277182f0b0e95ae8a453073d99b890cf9ac211e11f618996c",
+      "bytes": 2252,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/full.py",
+      "sha256": "9ecf0d644fcc633a9e35a64835fa377b9e77d223bcecebefe34cc4ce759e9215",
+      "bytes": 15533,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/full_plan.py",
+      "sha256": "a2942a0fab1962f198bbef66164cce757ca91d89e686f9d9fa45a5657276f250",
+      "bytes": 5831,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/generate.py",
+      "sha256": "7390dc30ce97d30d91dbcb27e89dc46ef86589fce4bc775fc4ab699723c5b69d",
+      "bytes": 10338,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/geometry.py",
+      "sha256": "5fef7c1a83e1dde825988f3ab28f2bfe92a7ef10adf7f1fb2197c1f5f2999a89",
+      "bytes": 8381,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/launch_full.py",
+      "sha256": "89599efb4aa5c38a48ecd6dad96c9a7155b7915dbccc8eb7cbab82747e53c4ab",
+      "bytes": 2459,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/launch_review.py",
+      "sha256": "0d4dc3be62d5d0890b72faab8e05f0313449072b4e7a4044abb67fed8f1b4596",
+      "bytes": 1956,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/light.py",
+      "sha256": "16380ebdd52fc6edf831b654373440cb4d28e58fb258536f2f948ebcc3eaba26",
+      "bytes": 10572,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/plan.py",
+      "sha256": "26f43cd75ed5c4308b1dc4129e21caa09478cc90ca7ebfebfa0add78dba71a16",
+      "bytes": 4198,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/prepare.py",
+      "sha256": "5e1c6f049c37ca039d4436bbae74d81e40ce62f90b92c6ee6b272917f9251417",
+      "bytes": 1606,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/primary.py",
+      "sha256": "7c7500418568884dcdaa04f674a9326244b366ec2c03d855f0d4fa741884ff9c",
+      "bytes": 5602,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/pristine.py",
+      "sha256": "50baf11c42c5c7fe6f40e2804762c38f4082694b463338c613c238971fbfbaf7",
+      "bytes": 7371,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/render_review.py",
+      "sha256": "42f5e370ad425746e2954a205d886bcdd6618282bc30dc4a0d42eea07e7c305c",
+      "bytes": 11705,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/run.py",
+      "sha256": "a59d549d5945bfb35e50d4eac5f6862da105d8c5afd0dbd69421d05c6683951f",
+      "bytes": 8582,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/seam_contract.py",
+      "sha256": "e7d7b278e4cce5bab8ada8d11d7b71743e37193a27393c361d57ebbe183369e7",
+      "bytes": 7027,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/spec.py",
+      "sha256": "12a9421b4bcd61b33088719367fc729c162ee3896f5d508df6d14810bb7c611d",
+      "bytes": 2008,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/test_admission.py",
+      "sha256": "de983be3be9fe323645739a8d0a1277e04897c7dade09bba6475cac862d4b680",
+      "bytes": 2300,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/test_attach_connectable_audit.py",
+      "sha256": "eea4257738e58940c4a431ebda49b988e9d07aebc691d7ffd5b4492169890b56",
+      "bytes": 3162,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/test_crop_floor.py",
+      "sha256": "98b7e7e0aa7a2cdc2dcab4466e590dcb256a411349ce7ba5bf9d389577e2097b",
+      "bytes": 4575,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/test_full.py",
+      "sha256": "2906476c4a79a30a1a7090ff23278d30aad7d9328a4615f0214cd72506b0a569",
+      "bytes": 3158,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/test_review.py",
+      "sha256": "c3cb3f30d84fe0cacdafbaec336af4bc335c7475067a222066e7eb957feac1ef",
+      "bytes": 6887,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/test_seam_contract.py",
+      "sha256": "2b746cb53da8e8dff4c7276922d34a5e2e80387a9612fb749aff649b9ac0738c",
+      "bytes": 4821,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/test_snapshot_crop20.py",
+      "sha256": "f998b6a082fb033f521353845bc3209d2f7ff947b5cba19ae4be9619febe7ee9",
+      "bytes": 3064,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/test_snapshot_unprotected.py",
+      "sha256": "e3c9f39777a1485a60fd3ec14021ca00a999a4f4fd8ef125fd4dc7de200a0634",
+      "bytes": 3226,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/trim.py",
+      "sha256": "d7523f8e88bb087f0588e768a8d00c1602f973c935608c77b025309c3bbb85f3",
+      "bytes": 12229,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum/weather.py",
+      "sha256": "61426ae53306daa32de0d67af11ef5daa56f6d7fe8ec60015bc782e2373eeaaa",
+      "bytes": 10974,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/aggressive_data_v15/geometry.py",
+      "sha256": "4d96915d220a688c8bc50079a02342ca6955b9bf3c7f82cb0df15d974e02ec66",
+      "bytes": 16235,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/aggressive_data_v16/geometry.py",
+      "sha256": "df2664dd55bc074157bc8900f47147e3adc0b82f77cf3a2143f0e7533d8c9bf2",
+      "bytes": 9581,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/aggressive_data_v17/geometry.py",
+      "sha256": "a0c95b6de3993f964dca51b9424028afccfab92fe32a14e551f374d6fee3e382",
+      "bytes": 8850,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/aggressive_data_v17/weather.py",
+      "sha256": "5a8bd89132147436c8825f61e74eeddc39b9b2b26e08e6ef421851b40cc67b9d",
+      "bytes": 13799,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/s7_compound_v1/geometry.py",
+      "sha256": "dff548bd69f7ec43b4fae007f65f000d919a615cdae4fa7200197a374592f422",
+      "bytes": 27234,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/s7_compound_v1/materialize.py",
+      "sha256": "59577d3810d0112c6e24acd0ce7f8944684feaae8bce5713136d9faabe3bc955",
+      "bytes": 16375,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/curriculum_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/seam_context_v3/targets.py",
+      "sha256": "1b89480c84416f331faa1792ff7b0f470f240b99545e1e4425bf290a69e6808c",
+      "bytes": 6164,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/reference_dependencies/experiments/rachel_n512_formal_30k/build_s7_gen5_pool.py",
+      "sha256": "55a969ea36add3bf66c3452157eb0d043aa7b9e4c93d33bd27dcfbfcc7f66441",
+      "bytes": 22674,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/reference_dependencies/staging/pairwise_v0_2/pairwise_data/rachel_gen5_partition.py",
+      "sha256": "fb4fda0ed40d2508f0fa5766e9729bfb3ea7006618dfb82440ef0256cdf338fa",
+      "bytes": 14236,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/reference_dependencies/staging/pairwise_v0_2/pairwise_data/rachel_materialized_dataset.py",
+      "sha256": "f6b07b824998242d6e58b9a72b9eba95589f44264418859bd5b1e1935007c221",
+      "bytes": 5796,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/reference_dependencies/staging/pairwise_v0_2/pairwise_data/rachel_preprocess.py",
+      "sha256": "ab3d1a543d034a293f017ef7dee62c0789fe8597adf95ec5715729bbead6cb81",
+      "bytes": 31175,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/reference_dependencies/staging/pairwise_v0_2/pairwise_data/rachel_s7_dataset.py",
+      "sha256": "4685bf3293367b96e9437a548d02f85871e8245befb50aaad6ecc70495cb3934",
+      "bytes": 9204,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/reference_dependencies/staging/pairwise_v0_2/pairwise_data/rachel_weathered_dataset.py",
+      "sha256": "bc822c05ae2320713682cff1587e1bbfd1a40042d9c6a9123a289fd540328b39",
+      "bytes": 18525,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/__init__.py",
+      "sha256": "84e2dff1811a4ee9b096d5c08f03a2e886f4a8d82c8749e6870a247e6ae3446a",
+      "bytes": 76,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/audit_layered.py",
+      "sha256": "0ff85626cf49d3a3a988fa55e7d0b69a99fb33c19f4f7a69468c0cf5eb600b49",
+      "bytes": 9779,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/background_recession.py",
+      "sha256": "31e9677d0ea2831ab39b514ccd88a6694404abb2411e69433c7455ebe0607acf",
+      "bytes": 9206,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/bind_conservative_report.py",
+      "sha256": "eaa0ebcba82c6ac31ad1c1cb1e6eb7a71bd24bef1e9d5242a63f8fa731555133",
+      "bytes": 9172,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/bind_strong_report.py",
+      "sha256": "b212bdea6140711d90140e3ea0169dc49e672014bd616020f2a057f4e0e3e0cb",
+      "bytes": 5752,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/conservative_review.py",
+      "sha256": "23d9a1a6519ee9dc56050353fbcc46fc1880c911d9a6c3e6f2130ef924d07830",
+      "bytes": 17968,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/conservative_weather.py",
+      "sha256": "840177685d67bd64b17f0dc8f0b51da6e54b8c4d8f58bb9618bd6359567834b9",
+      "bytes": 13295,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/describe.py",
+      "sha256": "6da548f978288faae69cc4bf46326d9d432dfaa97199ee2002bc7422a08ab507",
+      "bytes": 10499,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/diagnose_rejections.py",
+      "sha256": "dbf876cf8dff763f8e18153ac6da7f25d54afacb970df02412976093aae8b9f3",
+      "bytes": 2960,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/distribution_profile_v14.json",
+      "sha256": "cb4116af75402e2726eb8aeec84132cc7a1e182acdcfedc0f6f24f4f406b1946",
+      "bytes": 5532,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/geometry.py",
+      "sha256": "73772b90840ac830a6c36680067a9149687de1cc2c7ddd30636b15baeaeafc9a",
+      "bytes": 15811,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/latent_seam.py",
+      "sha256": "2a40483a6a0ffd62ced5e31ca27a53518e1f595f0e871e8720d99f68be88fdf7",
+      "bytes": 4394,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/launch_revision.py",
+      "sha256": "0386150dffb3b2adec6c5d012b5d1c420980df1b9e529c2da8817b1e59f4cb3e",
+      "bytes": 1978,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/layered_figure.py",
+      "sha256": "a1ad5e344f658cfc77b24dafbb981b5adb86a941f8fe66dbc6f36181a635254c",
+      "bytes": 8246,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/layered_geometry.py",
+      "sha256": "3c2051dd0ee3f707ad6400826393e0bfde6990c29c0e302fc65716975dfa75cd",
+      "bytes": 13438,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/materialize.py",
+      "sha256": "171abfb99dd3c7a96a5e41af258d473db1d0c9ada69047d5d4ef230d55d8aca7",
+      "bytes": 24384,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/paired_augmentation_frozen.py",
+      "sha256": "01b17eadb5e8967836d4d17c570c75d4fbe34f6a950883a8282b3dc8b367c964",
+      "bytes": 2035,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/partial_v14.py",
+      "sha256": "abf1d86537a88d938f5b408b124b0835b41d15c7a8c1880d74fb56e09eb7245c",
+      "bytes": 12542,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/pipeline.py",
+      "sha256": "b31109fc3d8dac5e5686fe9213ba8ce7c8a1ba0936c8936ffb6650cd0b34a113",
+      "bytes": 4646,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/prepare.py",
+      "sha256": "ae02d4455da41517889da5d757bf22968f522024c185294a70c9e9dae4876ae5",
+      "bytes": 10846,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/probe_partial_v14.py",
+      "sha256": "b0dba0616fe5c8daaf7d11b2a1bbbdf3f05ca138c39fa4711fc9803fa12e5594",
+      "bytes": 1849,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/replay_strong_feasibility.py",
+      "sha256": "230d90a335dc47796124a2488e2d40d66077c74f93b04d432a1acf9e7c0c5805",
+      "bytes": 6720,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/reuse_completed.py",
+      "sha256": "700f5d63afb82ebcb11248dce07d23d70b82296d9dfe0c870c085d5ed1d1c387",
+      "bytes": 3132,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/revision_pipeline.py",
+      "sha256": "03b8f05f2d3ffb381bcc321ede954cc24fcf13c0ff6beeabb7ee279008be2cc2",
+      "bytes": 6304,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/scale.py",
+      "sha256": "4130d0abc81a11730992010bb0e95235d34188c3f8c567d90cc7434250d6f9c8",
+      "bytes": 3987,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/source_search.py",
+      "sha256": "865ded1e2fa9d9677e8537da604ba849ff3a4c1e8ebb19ceb6b45409879ae937",
+      "bytes": 1807,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/strong_review.py",
+      "sha256": "d77dbf186e1c8864b8349957fb3a4497ed0e4a8e34766896222f82286077a38b",
+      "bytes": 15890,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/test_approval.py",
+      "sha256": "6067c6df77d0b3590851a8e026b032103c39e7338b10a1f7c067f9333f89d3e1",
+      "bytes": 2093,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/test_conservative_weather.py",
+      "sha256": "b245554c0b3cee35af6e30ca497928e7d73fd7a92bb88cd5e741e3c41365ee52",
+      "bytes": 3309,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/test_raster_precision.py",
+      "sha256": "05cc4666cf262e89ebde3fc6468b029b851ab91f5d6f30e20876a0bb5cd3a153",
+      "bytes": 2959,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/test_source_search.py",
+      "sha256": "181c87b89b6ea080c6b2ec6620067221b13f9961104fc0db2f6284f97ece94d8",
+      "bytes": 2609,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/test_strong_review.py",
+      "sha256": "2ef873d5ec3e11e9c83f8b9dd99be864a9477b9f8348f69c588c8effc25eaf95",
+      "bytes": 1427,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/validate.py",
+      "sha256": "0cd27249fd2c1bd47913d77be509e60edcf886780fe953d70318f3792933fdb0",
+      "bytes": 10942,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v14_prerequisite/verify_raster_replay.py",
+      "sha256": "06cf4cb7362576651685fae1e57f8fe9259c29707de685e92af906ef65d02a8a",
+      "bytes": 3970,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/__init__.py",
+      "sha256": "6a66d10028e563de7e9348a856b4596060c366406024b953db4995dab94c9307",
+      "bytes": 194,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/audit.py",
+      "sha256": "3d647253a50ebdacc6de6a0e430b86173bfe8ceeb83a31cb0a5e8cff5d8f523f",
+      "bytes": 18609,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/fallback.py",
+      "sha256": "34ced81044b783703b59a2e3728c3b942a60ad4fa5754334a8cd826672324d05",
+      "bytes": 2988,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/finish.py",
+      "sha256": "83bbb21033d773a533baf13330f74069f2d0d470e9199428dd9d7a34a21086bd",
+      "bytes": 7968,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/generate.py",
+      "sha256": "b2d8ace3584927691c06b4273b98c751c5889daf4a1b55a581b6abf6b464d7cf",
+      "bytes": 9102,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/geometry.py",
+      "sha256": "17af1d81c1a73cb90157dc24dd2269f40b3fba0fe34500eedb16c69451c57d07",
+      "bytes": 4486,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/launch.py",
+      "sha256": "7bf1509d8ddd91c12606136709b2fb3a08ae0310043e149998e18d12218fff92",
+      "bytes": 1957,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/pipeline.py",
+      "sha256": "bfaa9d513671f9ece784d17047d31281313fd33997801758ced1bfb1b4194771",
+      "bytes": 11633,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/plan.py",
+      "sha256": "32b7b5979f80ebb5c45aaa4948e6ea1ecb36fd7f4a5c0045768acb398232677e",
+      "bytes": 3693,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/prepare_source.py",
+      "sha256": "6b6c61837b39476dea257a18581b91e25f4d55508ecfbbea7e8b2e9365af4827",
+      "bytes": 1347,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/resources.py",
+      "sha256": "43a50c7efe4ac7af39b6d21d4de9a941b93aff55ce8b05e77b9f89aec4b925e0",
+      "bytes": 1497,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/source.py",
+      "sha256": "dd4170e54465db7293cee7248b8c994a4899fa8d3dded7fd55e985af8a6ed8cd",
+      "bytes": 3607,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/supervision.py",
+      "sha256": "892db05c14e5edef12a9bc2926ab1cc5406093a5e6a3db2e197c7a4d9b135e2c",
+      "bytes": 3041,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_full/test_full.py",
+      "sha256": "304c3949e38ac89661ee9cdfc281296f8318e358ff5fc14a031257f1a47f32cc",
+      "bytes": 3958,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/aggressive_data_v15/geometry.py",
+      "sha256": "4d96915d220a688c8bc50079a02342ca6955b9bf3c7f82cb0df15d974e02ec66",
+      "bytes": 16235,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/aggressive_data_v16/geometry.py",
+      "sha256": "df2664dd55bc074157bc8900f47147e3adc0b82f77cf3a2143f0e7533d8c9bf2",
+      "bytes": 9581,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/aggressive_data_v17/geometry.py",
+      "sha256": "a0c95b6de3993f964dca51b9424028afccfab92fe32a14e551f374d6fee3e382",
+      "bytes": 8850,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/aggressive_data_v17/weather.py",
+      "sha256": "5a8bd89132147436c8825f61e74eeddc39b9b2b26e08e6ef421851b40cc67b9d",
+      "bytes": 13799,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/s7_compound_v1/geometry.py",
+      "sha256": "dff548bd69f7ec43b4fae007f65f000d919a615cdae4fa7200197a374592f422",
+      "bytes": 27234,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/s7_compound_v1/materialize.py",
+      "sha256": "59577d3810d0112c6e24acd0ce7f8944684feaae8bce5713136d9faabe3bc955",
+      "bytes": 16375,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "code/data_methods/v17_runtime/experiments/rachel_n512_formal_30k/scorer_diagnosis_20260919/seam_context_v3/targets.py",
+      "sha256": "1b89480c84416f331faa1792ff7b0f470f240b99545e1e4425bf290a69e6808c",
+      "bytes": 6164,
+      "role": "project-owned v17/v17.5/v18 method snapshot; dependency layout preserved"
+    },
+    {
+      "path": "analysis/extract_evidence_private_inputs.py",
+      "sha256": "90f15893164bed535dcb8678a9f57c2bd724f830404abebec80fed7e84d27a9b",
+      "bytes": 11186,
+      "role": "saved-prediction recount reference; requires private inputs, no SSH or inference"
+    }
+  ],
+  "base_commit": "9a50fa8fca1624755cb3058c6a9dc73b8d77db4e",
+  "frozen_training_runtime": "releases/2026-09-30/matcher_v2_runtime13/runtime_work_13",
+  "omitted": [
+    "datasets",
+    "weights",
+    "per-case predictions",
+    "review images/labels",
+    "SSH collectors",
+    "private upstream base tearing/v4.2 generators",
+    "AppleDouble metadata",
+    "__pycache__"
+  ]
+}

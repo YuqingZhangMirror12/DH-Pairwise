@@ -1,0 +1,119 @@
+{
+  "schema": "b3_training_design_public_v1",
+  "source_training_complete_sha256": "baa5350ff99b3fd27a7cb1cee49fbb6432296c55e2a45dd2d1c5ebf56fad3f86",
+  "common_plan": {
+    "baseline_sources_sha256": "29165b677d166b62eb73d7e287a3b26ba28ac75411538f5adeaa6ca35ca74886",
+    "checkpoint_every_updates": 100,
+    "data_admission_sha256": "07eb6da665f88088f872e64eb647ba419d3016f5c159326b7876cec21faed379",
+    "effective_batch": 32,
+    "geometry_sha256": "3336293a800f79946568f750dd066796ee70f0e0b420dd0e1b16960511fc2925",
+    "gradient_clip_norm": 5,
+    "head_seed": 26092406,
+    "learning_rate_knots": [
+      [
+        0,
+        0.0001
+      ],
+      [
+        19667,
+        5e-05
+      ],
+      [
+        27667,
+        2.5e-05
+      ]
+    ],
+    "ledger_sha256": "dd016cf550bfee231613a339ce6d359cdfaef929b566e38e563a5c4b15a8b3fb",
+    "model_seed": 26092407,
+    "module": "scorer_patch",
+    "optimizer_reset_at_stage": false,
+    "precision": "float32",
+    "protocol_locked": true,
+    "schema": "curriculum-runtime-plan/1",
+    "seed": 26092408,
+    "selection_rule": {
+      "affects_training_schedule": false,
+      "id": "joint_f1_layout_ap+dunhuang_joint_only/1",
+      "include_equal_budget_endpoint": true,
+      "test_used": false,
+      "trained_observations_only": true
+    },
+    "stage_updates": {
+      "v17.5": 8000,
+      "v17_filtered": 19667,
+      "v18": 4000
+    },
+    "termination": "fixed_shared_update_budget",
+    "total_updates": 31667,
+    "validation_updates": [
+      0,
+      1667,
+      3667,
+      5667,
+      7667,
+      9667,
+      11667,
+      13667,
+      15667,
+      17667,
+      19667,
+      21667,
+      23667,
+      25667,
+      27667,
+      29667,
+      31667
+    ],
+    "weight_decay": 0.0001
+  },
+  "fixed_matcher_sha256": "cdf5f03a9317b52926fbd757c85c481551edac333aa49df0e833383923ba0fbd",
+  "completed_updates": 31667,
+  "completed_exposures": 1013344,
+  "stop_reason": "fixed_shared_update_budget",
+  "claimed_converged": false,
+  "unique_rows": {
+    "v17_filtered": 12179,
+    "v17.5": 6000,
+    "v18": 3000,
+    "strict_straight": 6000
+  },
+  "positive_rows": {
+    "v17_filtered": 4679,
+    "v17.5": 3000,
+    "v18": 1500,
+    "strict_straight": 3000
+  },
+  "original_stage_updates": [
+    15000,
+    6000,
+    3000
+  ],
+  "additive_stage_updates": [
+    4667,
+    2000,
+    1000
+  ],
+  "original_clock_straight_windows": [
+    [
+      0,
+      1500,
+      167
+    ],
+    [
+      1500,
+      15000,
+      4500
+    ],
+    [
+      15000,
+      21000,
+      2000
+    ],
+    [
+      21000,
+      24000,
+      1000
+    ]
+  ],
+  "evidence_scope": "Common plan copied from actual Patch binding; interleaving read from frozen runtime_inputs.WINDOWS. No dataset rows or model tensors published."
+}

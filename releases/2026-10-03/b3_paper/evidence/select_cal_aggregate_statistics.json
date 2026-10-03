@@ -1,0 +1,3998 @@
+{
+  "select": {
+    "by_gen": {
+      "Gen2": {
+        "donor_parent_count": 6,
+        "independent_base_pair_count": 103,
+        "model_input_content_count": 360,
+        "negatives": 180,
+        "positives": 180,
+        "primary_fragment_count": 50,
+        "primary_parent_count": 5,
+        "rows": 360
+      },
+      "Gen3": {
+        "donor_parent_count": 6,
+        "independent_base_pair_count": 53,
+        "model_input_content_count": 356,
+        "negatives": 180,
+        "positives": 176,
+        "primary_fragment_count": 21,
+        "primary_parent_count": 3,
+        "rows": 356
+      },
+      "Gen4": {
+        "donor_parent_count": 6,
+        "independent_base_pair_count": 121,
+        "model_input_content_count": 360,
+        "negatives": 180,
+        "positives": 180,
+        "primary_fragment_count": 48,
+        "primary_parent_count": 5,
+        "rows": 360
+      },
+      "Gen5": {
+        "donor_parent_count": 6,
+        "independent_base_pair_count": 140,
+        "model_input_content_count": 360,
+        "negatives": 180,
+        "positives": 180,
+        "primary_fragment_count": 72,
+        "primary_parent_count": 6,
+        "rows": 360
+      },
+      "straight_strip": {
+        "donor_parent_count": 6,
+        "independent_base_pair_count": 160,
+        "model_input_content_count": 160,
+        "negatives": 80,
+        "positives": 80,
+        "primary_fragment_count": 320,
+        "primary_parent_count": 96,
+        "rows": 160
+      }
+    },
+    "by_stage": {
+      "strict_straight": {
+        "donor_parent_count": 6,
+        "independent_base_pair_count": 160,
+        "model_input_content_count": 160,
+        "negatives": 80,
+        "positives": 80,
+        "primary_fragment_count": 320,
+        "primary_parent_count": 96,
+        "rows": 160
+      },
+      "v17.5": {
+        "donor_parent_count": 6,
+        "independent_base_pair_count": 321,
+        "model_input_content_count": 479,
+        "negatives": 240,
+        "positives": 239,
+        "primary_fragment_count": 185,
+        "primary_parent_count": 6,
+        "rows": 479
+      },
+      "v17_filtered": {
+        "donor_parent_count": 6,
+        "independent_base_pair_count": 306,
+        "model_input_content_count": 480,
+        "negatives": 240,
+        "positives": 240,
+        "primary_fragment_count": 179,
+        "primary_parent_count": 6,
+        "rows": 480
+      },
+      "v18": {
+        "donor_parent_count": 6,
+        "independent_base_pair_count": 322,
+        "model_input_content_count": 477,
+        "negatives": 240,
+        "positives": 237,
+        "primary_fragment_count": 189,
+        "primary_parent_count": 6,
+        "rows": 477
+      }
+    },
+    "donor_parent_count": 6,
+    "gen_stage_recipe_label": [
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 15,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 15,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 8,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 15,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 15,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 6,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 15,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 15,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 15,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 15,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 38,
+        "gen": "straight_strip",
+        "label": false,
+        "recipe": "straight_J",
+        "stage": "strict_straight"
+      },
+      {
+        "count": 37,
+        "gen": "straight_strip",
+        "label": true,
+        "recipe": "straight_J",
+        "stage": "strict_straight"
+      },
+      {
+        "count": 20,
+        "gen": "straight_strip",
+        "label": false,
+        "recipe": "straight_M",
+        "stage": "strict_straight"
+      },
+      {
+        "count": 20,
+        "gen": "straight_strip",
+        "label": true,
+        "recipe": "straight_M",
+        "stage": "strict_straight"
+      },
+      {
+        "count": 22,
+        "gen": "straight_strip",
+        "label": false,
+        "recipe": "straight_R",
+        "stage": "strict_straight"
+      },
+      {
+        "count": 23,
+        "gen": "straight_strip",
+        "label": true,
+        "recipe": "straight_R",
+        "stage": "strict_straight"
+      }
+    ],
+    "independent_base_pair_count": 577,
+    "max_augmented_views_per_base": 21,
+    "model_input_content_count": 1596,
+    "negatives": 800,
+    "positives": 796,
+    "primary_fragment_count": 511,
+    "primary_parent_count": 96,
+    "rows": 1596,
+    "private_statistics_sha256": "69c176741c895dbb5c04d58da438484e703a2163469756aaff5a8b7157041650"
+  },
+  "cal": {
+    "by_gen": {
+      "Gen2": {
+        "donor_parent_count": 11,
+        "independent_base_pair_count": 140,
+        "model_input_content_count": 360,
+        "negatives": 180,
+        "positives": 180,
+        "primary_fragment_count": 212,
+        "primary_parent_count": 8,
+        "rows": 360
+      },
+      "Gen3": {
+        "donor_parent_count": 11,
+        "independent_base_pair_count": 19,
+        "model_input_content_count": 349,
+        "negatives": 175,
+        "positives": 174,
+        "primary_fragment_count": 9,
+        "primary_parent_count": 2,
+        "rows": 349
+      },
+      "Gen4": {
+        "donor_parent_count": 11,
+        "independent_base_pair_count": 138,
+        "model_input_content_count": 360,
+        "negatives": 180,
+        "positives": 180,
+        "primary_fragment_count": 70,
+        "primary_parent_count": 9,
+        "rows": 360
+      },
+      "Gen5": {
+        "donor_parent_count": 11,
+        "independent_base_pair_count": 146,
+        "model_input_content_count": 358,
+        "negatives": 179,
+        "positives": 179,
+        "primary_fragment_count": 105,
+        "primary_parent_count": 11,
+        "rows": 358
+      },
+      "straight_strip": {
+        "donor_parent_count": 8,
+        "independent_base_pair_count": 160,
+        "model_input_content_count": 160,
+        "negatives": 80,
+        "positives": 80,
+        "primary_fragment_count": 320,
+        "primary_parent_count": 98,
+        "rows": 160
+      }
+    },
+    "by_stage": {
+      "strict_straight": {
+        "donor_parent_count": 8,
+        "independent_base_pair_count": 160,
+        "model_input_content_count": 160,
+        "negatives": 80,
+        "positives": 80,
+        "primary_fragment_count": 320,
+        "primary_parent_count": 98,
+        "rows": 160
+      },
+      "v17.5": {
+        "donor_parent_count": 11,
+        "independent_base_pair_count": 343,
+        "model_input_content_count": 475,
+        "negatives": 238,
+        "positives": 237,
+        "primary_fragment_count": 364,
+        "primary_parent_count": 11,
+        "rows": 475
+      },
+      "v17_filtered": {
+        "donor_parent_count": 11,
+        "independent_base_pair_count": 334,
+        "model_input_content_count": 476,
+        "negatives": 238,
+        "positives": 238,
+        "primary_fragment_count": 362,
+        "primary_parent_count": 11,
+        "rows": 476
+      },
+      "v18": {
+        "donor_parent_count": 11,
+        "independent_base_pair_count": 343,
+        "model_input_content_count": 476,
+        "negatives": 238,
+        "positives": 238,
+        "primary_fragment_count": 365,
+        "primary_parent_count": 11,
+        "rows": 476
+      }
+    },
+    "donor_parent_count": 11,
+    "gen_stage_recipe_label": [
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 15,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 15,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen2",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 7,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 6,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 14,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 14,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 7,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 7,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen3",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 15,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 15,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen4",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 3,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 15,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17.5"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 3,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 14,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 14,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v17_filtered"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "clean",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "gaps",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "gaps_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_abrupt",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 3,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_abrupt_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_gradual",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 2,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "local_gradual_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 9,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "mild",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 15,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "partial",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 4,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "wave",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": false,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 5,
+        "gen": "Gen5",
+        "label": true,
+        "recipe": "wave_weak",
+        "stage": "v18"
+      },
+      {
+        "count": 37,
+        "gen": "straight_strip",
+        "label": false,
+        "recipe": "straight_J",
+        "stage": "strict_straight"
+      },
+      {
+        "count": 38,
+        "gen": "straight_strip",
+        "label": true,
+        "recipe": "straight_J",
+        "stage": "strict_straight"
+      },
+      {
+        "count": 20,
+        "gen": "straight_strip",
+        "label": false,
+        "recipe": "straight_M",
+        "stage": "strict_straight"
+      },
+      {
+        "count": 20,
+        "gen": "straight_strip",
+        "label": true,
+        "recipe": "straight_M",
+        "stage": "strict_straight"
+      },
+      {
+        "count": 23,
+        "gen": "straight_strip",
+        "label": false,
+        "recipe": "straight_R",
+        "stage": "strict_straight"
+      },
+      {
+        "count": 22,
+        "gen": "straight_strip",
+        "label": true,
+        "recipe": "straight_R",
+        "stage": "strict_straight"
+      }
+    ],
+    "independent_base_pair_count": 603,
+    "max_augmented_views_per_base": 43,
+    "model_input_content_count": 1587,
+    "negatives": 794,
+    "positives": 793,
+    "primary_fragment_count": 716,
+    "primary_parent_count": 101,
+    "rows": 1587,
+    "private_statistics_sha256": "4f18e8cd61d682a56e2915463e166658f3767fda08af85f531e0b3be2399024f"
+  }
+}

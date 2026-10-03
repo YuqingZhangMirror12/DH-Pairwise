@@ -1,3 +1,15 @@
+<!-- BEGIN B3 PAPER 20261003 -->
+# Latest paper handoff · B3 · 2026-10-03
+
+[论文交接 README：架构、课程、Scorer、仿真/真实结果与消融](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/matcher-v2-20260930/releases/2026-10-03/b3_paper/README.md)
+
+[固定版本代码地图](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/matcher-v2-20260930/releases/2026-10-03/b3_paper/CODE_MAP.md) · [数据方法](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/matcher-v2-20260930/releases/2026-10-03/b3_paper/docs/SIMULATION_METHODS.md) · [SELECT/CAL](https://github.com/YuqingZhangMirror12/DH-Pairwise/blob/matcher-v2-20260930/releases/2026-10-03/b3_paper/docs/SELECT_CAL.md)
+
+无需SSH即可阅读代码和结果汇总；本次代码固定于 `9dff51b32dc73b6a915c6954f6ecd40e48708d37`，数据/权重/逐例预测不公开。最新结果明确区分B3历史选模与终点多方向推理；直缝对照的额外训练预算、基线缺测人口均已标明。此前发布和许可文件保持不变。
+
+**下方为早期发布记录，其中“训练中”等状态仅代表当时，不是2026-10-03当前状态。**
+<!-- END B3 PAPER 20261003 -->
+
 # DH-Pairwise
 
 ## B3 正式训练源码 source13（2026-09-30）

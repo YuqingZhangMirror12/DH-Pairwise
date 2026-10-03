@@ -1,0 +1,187 @@
+{
+  "files": [
+    {
+      "bytes": 19640,
+      "path": "code/endpoint_head_source03/model_selection_v2/checkpoint_scan.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "51a377f716a9002bfee0b7a9380d8230c675db4dc276127b2e85e6f0bdd1ff5f"
+    },
+    {
+      "bytes": 19925,
+      "path": "code/endpoint_head_source03/model_selection_v2/head_bridge.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "85b3d535d354e5c2ea8d827005cd551b35351cada9c851ad089aacbd2d40bdb9"
+    },
+    {
+      "bytes": 9149,
+      "path": "code/endpoint_head_source03/model_selection_v2/head_endpoint.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "a4219510b2c216ef49a7cb00697281cb38f656e8aaad61f8279e33ba98c07ed8"
+    },
+    {
+      "bytes": 5198,
+      "path": "code/endpoint_head_source03/model_selection_v2/head_evaluate.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "081909b1ea1b88f5d83976af24418ebf3ba561ffa39d244c9e8a5511c11cd326"
+    },
+    {
+      "bytes": 16265,
+      "path": "code/endpoint_head_source03/model_selection_v2/head_execution.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "c061cf80fbfebfd1fcb4073a4f6d4766a705853fb464404e1881ab317fe76598"
+    },
+    {
+      "bytes": 12541,
+      "path": "code/endpoint_head_source03/model_selection_v2/head_launcher.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "a0a883a2044ae1a890257560fdf32f35b6fc52709308bb99953c5943a862925a"
+    },
+    {
+      "bytes": 13242,
+      "path": "code/endpoint_head_source03/model_selection_v2/head_observations.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "c880d3c403819f665fd13f9f2cc29825e8ff185260d467945f6ac39d690774af"
+    },
+    {
+      "bytes": 9202,
+      "path": "code/endpoint_head_source03/model_selection_v2/head_pipeline.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "9f26cfc2c6bf8eafd86dd79c2cc940e5a15487a2a9a9562215754c45cce79890"
+    },
+    {
+      "bytes": 10805,
+      "path": "code/endpoint_head_source03/model_selection_v2/head_population.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "92bc969a89d82a3441e31072414ad2f57353008765da501f170f39da78924788"
+    },
+    {
+      "bytes": 9985,
+      "path": "code/endpoint_head_source03/model_selection_v2/head_readout.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "e3bdd98d787d2696cfe974d5ade1200b394236269bce074a05759bc5b7a86dac"
+    },
+    {
+      "bytes": 11472,
+      "path": "code/endpoint_head_source03/model_selection_v2/head_terminal.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "517638eefea7b764e03d572aec9bb3a7a596c6a0e47e9b462f6567565bf57e34"
+    },
+    {
+      "bytes": 17601,
+      "path": "code/endpoint_head_source03/model_selection_v2/head_terminal_queue.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "8317782a61855e98b8db504f25f889e84a42cbfc4e0ed9f31256e2a9eb96cfca"
+    },
+    {
+      "bytes": 11059,
+      "path": "code/endpoint_head_source03/model_selection_v2/native_eval.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "37494f1eb5a78f8b91a984095ecdfdc721a7b150476ac97212c7c7cf30c4bdc2"
+    },
+    {
+      "bytes": 15828,
+      "path": "code/endpoint_head_source03/model_selection_v2/posthoc_export.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "248276525545d2e169be3bffc338772ba46e16f7cd924b737cdf99fad0cf4afa"
+    },
+    {
+      "bytes": 13709,
+      "path": "code/endpoint_head_source03/model_selection_v2/protocol.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "96532b785cba86d4eabb9a556a446ed9502bc51411fc42ed3db57780f051d03d"
+    },
+    {
+      "bytes": 5957,
+      "path": "code/endpoint_head_source03/model_selection_v2/released_protocol.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "b88b64091afa0bf7ef312d74204bd31b05b6040ec75798d36b44aa482a36b4e5"
+    },
+    {
+      "bytes": 8633,
+      "path": "code/endpoint_head_source03/model_selection_v2/selection.py",
+      "role": "exact deployed frozen source03; model/data inputs not included",
+      "sha256": "ae372b5c01945ed0046c29005f02ffcc697f591f4c992746357efdf4ba7f2f64"
+    },
+    {
+      "bytes": 19640,
+      "path": "code/select_scan_source01/model_selection_v2/checkpoint_scan.py",
+      "role": "separate original completed SELECT scan source01",
+      "sha256": "51a377f716a9002bfee0b7a9380d8230c675db4dc276127b2e85e6f0bdd1ff5f"
+    },
+    {
+      "bytes": 11059,
+      "path": "code/select_scan_source01/model_selection_v2/native_eval.py",
+      "role": "separate original completed SELECT scan source01",
+      "sha256": "37494f1eb5a78f8b91a984095ecdfdc721a7b150476ac97212c7c7cf30c4bdc2"
+    },
+    {
+      "bytes": 15828,
+      "path": "code/select_scan_source01/model_selection_v2/posthoc_export.py",
+      "role": "separate original completed SELECT scan source01",
+      "sha256": "248276525545d2e169be3bffc338772ba46e16f7cd924b737cdf99fad0cf4afa"
+    },
+    {
+      "bytes": 13709,
+      "path": "code/select_scan_source01/model_selection_v2/protocol.py",
+      "role": "separate original completed SELECT scan source01",
+      "sha256": "96532b785cba86d4eabb9a556a446ed9502bc51411fc42ed3db57780f051d03d"
+    },
+    {
+      "bytes": 5957,
+      "path": "code/select_scan_source01/model_selection_v2/released_protocol.py",
+      "role": "separate original completed SELECT scan source01",
+      "sha256": "b88b64091afa0bf7ef312d74204bd31b05b6040ec75798d36b44aa482a36b4e5"
+    },
+    {
+      "bytes": 8633,
+      "path": "code/select_scan_source01/model_selection_v2/selection.py",
+      "role": "separate original completed SELECT scan source01",
+      "sha256": "ae372b5c01945ed0046c29005f02ffcc697f591f4c992746357efdf4ba7f2f64"
+    },
+    {
+      "bytes": 5584,
+      "path": "code/select_scan_source01/model_selection_v2/test_checkpoint_scan.py",
+      "role": "separate original completed SELECT scan source01",
+      "sha256": "2fedf4ba875d3fd7646c0042f8cfef6e7d9f31296bec9ab1f06e3b023fe4ad63"
+    },
+    {
+      "bytes": 5325,
+      "path": "code/endpoint_head_source03/model_selection_v2/test_head_dual.py",
+      "role": "seven local dual-topology routing tests; not part of deployed source inventory",
+      "sha256": "d053ae7ab18ebe6b4907dbb6500b685defe4be67ade64d712c242dfce5290fbd"
+    },
+    {
+      "bytes": 2172,
+      "path": "analysis/verify_public.py",
+      "role": "offline aggregate and exact-code integrity check; no model execution",
+      "sha256": "e6a94103bd3907ac03f73fba32f330d778a1d96061181661b8c2fc7bca89ebe3"
+    },
+    {
+      "bytes": 92664,
+      "path": "evidence/select_scan_aggregates.json",
+      "role": "reviewed aggregate-only projection",
+      "sha256": "dd95f0f9d1678bd60857bc487e6f344e130708e67c6f0012cdf74976e469b910"
+    },
+    {
+      "bytes": 1404,
+      "path": "evidence/dual_head_startup.json",
+      "role": "startup-only projection; no process identities or server credentials",
+      "sha256": "a017a41c83f61cdb6257710f05365b1d6bcf84dfbe6b13fa6de9f3dae9637880"
+    }
+  ],
+  "frozen_head_modules": 17,
+  "frozen_training_runtime": "releases/2026-09-30/matcher_v2_runtime13/runtime_work_13",
+  "frozen_training_runtime_commit": "9dff51b32dc73b6a915c6954f6ecd40e48708d37",
+  "omitted": [
+    "datasets",
+    "weights",
+    "raw predictions",
+    "case identifiers",
+    "SSH collectors",
+    "credentials",
+    "source registries containing private identities",
+    "unlicensed third-party generators"
+  ],
+  "original_head_source_inventory_sha256": "83f9fccb8b3fc5cc999a7032c615ae8ebc1efc3a5b8a39421cc9ee2575b6dd58",
+  "schema": "b3-endpoint-head-code-release/1"
+}

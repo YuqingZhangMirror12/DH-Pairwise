@@ -1,0 +1,3068 @@
+{
+  "actual_completed_candidates": 16,
+  "candidates": [
+    {
+      "eligible": false,
+      "macro_candidate_coverage": 0.9711842105263158,
+      "macro_layout": 0.9524342105263157,
+      "macro_loss": 1.0898972391815078,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 773,
+      "pooled_layout_hits": 758,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.7375,
+          "layout": 0.675,
+          "loss": 1.4303533149417489,
+          "strata": [
+            {
+              "candidate_coverage": 0.7375,
+              "coverage_hits": 59,
+              "generator": "straight_strip",
+              "layout": 0.675,
+              "layout_hits": 54,
+              "loss": 1.4303533149417489,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9958333333333333,
+          "loss": 1.054249807068405,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 1.0736837026973565,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.9815534099686045,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 1.0442778615280985,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 1.1174842540795604,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9791666666666666,
+          "loss": 1.0381676704622804,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 1.0750573161368568,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen3",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.9926763886585832,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 1.0336366671447952,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 1.0513003099088867,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9914473684210526,
+          "layout": 0.9747807017543859,
+          "loss": 1.063788881427091,
+          "strata": [
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen2",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 1.0852920843909184,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9824561403508771,
+              "coverage_hits": 56,
+              "generator": "Gen3",
+              "layout": 0.9824561403508771,
+              "layout_hits": 56,
+              "loss": 0.9849168749319183,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 1.0608559576173624,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.95,
+              "layout_hits": 57,
+              "loss": 1.124090608768165,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 1667
+    },
+    {
+      "eligible": false,
+      "macro_candidate_coverage": 0.995,
+      "macro_layout": 0.9836842105263157,
+      "macro_loss": 0.8320632404927985,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 792,
+      "pooled_layout_hits": 783,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.95,
+          "layout": 0.9125,
+          "loss": 0.873220848548226,
+          "strata": [
+            {
+              "candidate_coverage": 0.95,
+              "coverage_hits": 76,
+              "generator": "straight_strip",
+              "layout": 0.9125,
+              "layout_hits": 73,
+              "loss": 0.873220848548226,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 1.0,
+          "layout": 1.0,
+          "loss": 0.8324414091315825,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.807853888720274,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.7784715469519631,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.8506327581902345,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.8928074426638584,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9791666666666666,
+          "loss": 0.8037357498658821,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.797471290640533,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen3",
+              "layout": 0.95,
+              "layout_hits": 57,
+              "loss": 0.7877369425569971,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.8001694710925221,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.8295652951734761,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9956140350877193,
+          "loss": 0.8462933597957882,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.8280992803629488,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 57,
+              "generator": "Gen3",
+              "layout": 0.9824561403508771,
+              "layout_hits": 56,
+              "loss": 0.7879639663375341,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.8642025233246386,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.9049076691580316,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 3667
+    },
+    {
+      "eligible": true,
+      "macro_candidate_coverage": 0.9898684210526316,
+      "macro_layout": 0.9860972346119535,
+      "macro_loss": 0.7508952806818201,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 788,
+      "pooled_layout_hits": 785,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.95,
+          "layout": 0.95,
+          "loss": 0.7618687129986939,
+          "strata": [
+            {
+              "candidate_coverage": 0.95,
+              "coverage_hits": 76,
+              "generator": "straight_strip",
+              "layout": 0.95,
+              "layout_hits": 76,
+              "loss": 0.7618687129986939,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9957627118644068,
+          "loss": 0.7412889394447395,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.7585358825745061,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 0.9830508474576272,
+              "layout_hits": 58,
+              "loss": 0.7133315403030074,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.7495615843761091,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.7437267505253354,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 0.9958333333333333,
+          "layout": 0.9916666666666667,
+          "loss": 0.7320914452701497,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.7563806193570296,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.7406655341619626,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.7052662416050831,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.7260533859565234,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9870614035087719,
+          "layout": 0.9828947368421053,
+          "loss": 0.77564764655828,
+          "strata": [
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen2",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.8141973455514138,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9649122807017544,
+              "coverage_hits": 55,
+              "generator": "Gen3",
+              "layout": 0.9649122807017544,
+              "layout_hits": 55,
+              "loss": 0.7523078832966394,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.751630957921346,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.7844543994637206,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 5667
+    },
+    {
+      "eligible": true,
+      "macro_candidate_coverage": 0.9975,
+      "macro_layout": 0.9885972346119536,
+      "macro_loss": 0.6583654819803287,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 794,
+      "pooled_layout_hits": 787,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.9875,
+          "layout": 0.9625,
+          "loss": 0.59220713909599,
+          "strata": [
+            {
+              "candidate_coverage": 0.9875,
+              "coverage_hits": 79,
+              "generator": "straight_strip",
+              "layout": 0.9625,
+              "layout_hits": 77,
+              "loss": 0.59220713909599,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9957627118644068,
+          "loss": 0.6580107751632917,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.64366925979654,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 0.9830508474576272,
+              "layout_hits": 58,
+              "loss": 0.6089338325277096,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6883254753658548,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6911145329630624,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9916666666666667,
+          "loss": 0.6381506794947199,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6357552848368262,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen3",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6254450535091262,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6420005254835511,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6494018541493763,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9958333333333333,
+          "layout": 0.9870614035087719,
+          "loss": 0.7009877722444208,
+          "strata": [
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen2",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.7163719070609659,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 57,
+              "generator": "Gen3",
+              "layout": 0.9649122807017544,
+              "layout_hits": 55,
+              "loss": 0.6399087040629398,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.710789743050312,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.7368807348034655,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 7667
+    },
+    {
+      "eligible": true,
+      "macro_candidate_coverage": 0.9961842105263158,
+      "macro_layout": 0.9910526315789473,
+      "macro_loss": 0.6150032754389017,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 793,
+      "pooled_layout_hits": 789,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.975,
+          "layout": 0.975,
+          "loss": 0.5426065189647489,
+          "strata": [
+            {
+              "candidate_coverage": 0.975,
+              "coverage_hits": 78,
+              "generator": "straight_strip",
+              "layout": 0.975,
+              "layout_hits": 78,
+              "loss": 0.5426065189647489,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 1.0,
+          "layout": 1.0,
+          "loss": 0.6189364676105173,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5941863472030188,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.5800935948940635,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6512216646379481,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6502442637070392,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9916666666666667,
+          "loss": 0.6002090473562324,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5742053057843198,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen3",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.5926061738592883,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6128002252895385,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6212244844917829,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9956140350877193,
+          "layout": 0.9868421052631579,
+          "loss": 0.6499965635080062,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6236209951418762,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9824561403508771,
+              "coverage_hits": 56,
+              "generator": "Gen3",
+              "layout": 0.9473684210526315,
+              "layout_hits": 54,
+              "loss": 0.6260004566711748,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6583826567589616,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.691982145460012,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 9667
+    },
+    {
+      "eligible": false,
+      "macro_candidate_coverage": 0.99375,
+      "macro_layout": 0.9848684210526315,
+      "macro_loss": 0.603487858592152,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 791,
+      "pooled_layout_hits": 784,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.975,
+          "layout": 0.975,
+          "loss": 0.4919547667144798,
+          "strata": [
+            {
+              "candidate_coverage": 0.975,
+              "coverage_hits": 78,
+              "generator": "straight_strip",
+              "layout": 0.975,
+              "layout_hits": 78,
+              "loss": 0.4919547667144798,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 0.9958333333333333,
+          "layout": 0.9916666666666667,
+          "loss": 0.6089488910191891,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5625929752830416,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.567378324033896,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6419343171175569,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6638899476422618,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9874999999999999,
+          "loss": 0.5889884220921279,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5504545982616643,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen3",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.587004925054498,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.5983786796530087,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6201154853993406,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9916666666666667,
+          "layout": 0.9787280701754386,
+          "loss": 0.6497039599576965,
+          "strata": [
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen2",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.5964564273909976,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 57,
+              "generator": "Gen3",
+              "layout": 0.9649122807017544,
+              "layout_hits": 55,
+              "loss": 0.623603959257404,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6542378508408243,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.72451760234156,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 11667
+    },
+    {
+      "eligible": true,
+      "macro_candidate_coverage": 0.9961842105263158,
+      "macro_layout": 0.9899342105263158,
+      "macro_loss": 0.6020345070742577,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 793,
+      "pooled_layout_hits": 788,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.9875,
+          "layout": 0.975,
+          "loss": 0.47775187498191374,
+          "strata": [
+            {
+              "candidate_coverage": 0.9875,
+              "coverage_hits": 79,
+              "generator": "straight_strip",
+              "layout": 0.975,
+              "layout_hits": 78,
+              "loss": 0.47775187498191374,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9958333333333333,
+          "loss": 0.5978937967397672,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5780776298294464,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.5435118679223316,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6326638721240063,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6373218170832843,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 0.9958333333333333,
+          "layout": 0.9874999999999999,
+          "loss": 0.6059845629439223,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5786122777809699,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen3",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.5649850123173867,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6232192112443348,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6571217504329979,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9956140350877193,
+          "layout": 0.9914473684210526,
+          "loss": 0.643652705569865,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6241670018682878,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9824561403508771,
+              "coverage_hits": 56,
+              "generator": "Gen3",
+              "layout": 0.9824561403508771,
+              "layout_hits": 56,
+              "loss": 0.6041798369767957,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6422532546489189,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.7040107287854577,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 13667
+    },
+    {
+      "eligible": false,
+      "macro_candidate_coverage": 0.9874342105263157,
+      "macro_layout": 0.9736184210526315,
+      "macro_loss": 0.601900966544446,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 786,
+      "pooled_layout_hits": 775,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.9625,
+          "layout": 0.95,
+          "loss": 0.4610120652592741,
+          "strata": [
+            {
+              "candidate_coverage": 0.9625,
+              "coverage_hits": 77,
+              "generator": "straight_strip",
+              "layout": 0.95,
+              "layout_hits": 76,
+              "loss": 0.4610120652592741,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 0.9916666666666667,
+          "layout": 0.975,
+          "loss": 0.6147764946635701,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5526771338268494,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.5483397073542872,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9166666666666666,
+              "layout_hits": 55,
+              "loss": 0.7172943139371152,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6407948235360285,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9916666666666667,
+          "loss": 0.5786216911083708,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5264829056958358,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen3",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.5474476618226618,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6261740030255168,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6143821938894689,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9789473684210526,
+          "layout": 0.9620614035087719,
+          "loss": 0.6592676809564547,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.571572991545933,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9824561403508771,
+              "coverage_hits": 56,
+              "generator": "Gen3",
+              "layout": 0.9649122807017544,
+              "layout_hits": 55,
+              "loss": 0.6147259061312319,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 0.95,
+              "coverage_hits": 57,
+              "generator": "Gen4",
+              "layout": 0.9,
+              "layout_hits": 54,
+              "loss": 0.7499896016592781,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.700782224489376,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 15667
+    },
+    {
+      "eligible": false,
+      "macro_candidate_coverage": 0.99125,
+      "macro_layout": 0.9772814451382694,
+      "macro_loss": 0.6128650861101571,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 789,
+      "pooled_layout_hits": 778,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.975,
+          "layout": 0.975,
+          "loss": 0.39482400628039616,
+          "strata": [
+            {
+              "candidate_coverage": 0.975,
+              "coverage_hits": 78,
+              "generator": "straight_strip",
+              "layout": 0.975,
+              "layout_hits": 78,
+              "loss": 0.39482400628039616,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 0.9916666666666667,
+          "layout": 0.9832627118644068,
+          "loss": 0.6201310727825513,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5959001236672824,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 0.9830508474576272,
+              "layout_hits": 58,
+              "loss": 0.5582811470464373,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6507527300079042,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.6755902904085815,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 0.9958333333333333,
+          "layout": 0.975,
+          "loss": 0.6194889182981569,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5804599581674362,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 0.95,
+              "layout_hits": 57,
+              "loss": 0.6080166262186443,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6242948920466006,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.6651841967599467,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9916666666666667,
+          "layout": 0.9743421052631579,
+          "loss": 0.671655627193017,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6282360178340848,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 57,
+              "generator": "Gen3",
+              "layout": 0.9473684210526315,
+              "layout_hits": 54,
+              "loss": 0.6307695011934663,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6553334860829636,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.7722835036615531,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 17667
+    },
+    {
+      "eligible": false,
+      "macro_candidate_coverage": 0.9911842105263158,
+      "macro_layout": 0.9848684210526315,
+      "macro_loss": 0.6110799645398399,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 789,
+      "pooled_layout_hits": 784,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.975,
+          "layout": 0.9625,
+          "loss": 0.4097093411721289,
+          "strata": [
+            {
+              "candidate_coverage": 0.975,
+              "coverage_hits": 78,
+              "generator": "straight_strip",
+              "layout": 0.9625,
+              "layout_hits": 77,
+              "loss": 0.4097093411721289,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 0.9916666666666667,
+          "layout": 0.9916666666666667,
+          "loss": 0.6211595119584804,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5714007247239351,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.561886202841371,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6771253598388285,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6742257604297871,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9916666666666667,
+          "loss": 0.6117246475497571,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5437586721265688,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.561746741598472,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.6628464783386637,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6785466981353239,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9872807017543859,
+          "layout": 0.9787280701754386,
+          "loss": 0.6674792752338525,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6113412028566624,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9824561403508771,
+              "coverage_hits": 56,
+              "generator": "Gen3",
+              "layout": 0.9649122807017544,
+              "layout_hits": 55,
+              "loss": 0.6128475841325827,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.6809665156994015,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.7647617982467636,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 19667
+    },
+    {
+      "eligible": false,
+      "macro_candidate_coverage": 0.9911842105263158,
+      "macro_layout": 0.9836184210526315,
+      "macro_loss": 0.5391851091947375,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 789,
+      "pooled_layout_hits": 783,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.9875,
+          "layout": 0.975,
+          "loss": 0.34849638819578105,
+          "strata": [
+            {
+              "candidate_coverage": 0.9875,
+              "coverage_hits": 79,
+              "generator": "straight_strip",
+              "layout": 0.975,
+              "layout_hits": 78,
+              "loss": 0.34849638819578105,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 0.9916666666666667,
+          "layout": 0.9875,
+          "loss": 0.5560565867410394,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.4988603365064288,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.5019624311273464,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.6446808908988412,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.5787226884315412,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9916666666666667,
+          "loss": 0.542946235924804,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.4763351341942325,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen3",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.518421328968058,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5725885427789763,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.604439937757949,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9831140350877192,
+          "layout": 0.974561403508772,
+          "loss": 0.5821154119180213,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5043103019318854,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9824561403508771,
+              "coverage_hits": 56,
+              "generator": "Gen3",
+              "layout": 0.9649122807017544,
+              "layout_hits": 55,
+              "loss": 0.5433827276206297,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 0.9666666666666667,
+              "coverage_hits": 58,
+              "generator": "Gen4",
+              "layout": 0.95,
+              "layout_hits": 57,
+              "loss": 0.6468305917844798,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6339380263350904,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 21667
+    },
+    {
+      "eligible": false,
+      "macro_candidate_coverage": 0.9924342105263158,
+      "macro_layout": 0.9836184210526315,
+      "macro_loss": 0.5520356434687628,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 790,
+      "pooled_layout_hits": 783,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.9875,
+          "layout": 0.975,
+          "loss": 0.35456445936579256,
+          "strata": [
+            {
+              "candidate_coverage": 0.9875,
+              "coverage_hits": 79,
+              "generator": "straight_strip",
+              "layout": 0.975,
+              "layout_hits": 78,
+              "loss": 0.35456445936579256,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 0.9958333333333333,
+          "layout": 0.9916666666666667,
+          "loss": 0.5548609822758451,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5106052220721419,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.5085896990661111,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.5923582500855749,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6078907578795527,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 0.9958333333333333,
+          "layout": 0.9833333333333333,
+          "loss": 0.5823812949936837,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.4791866623563692,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.5473392313811928,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6445125136369219,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6584867726002509,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9872807017543859,
+          "layout": 0.9787280701754386,
+          "loss": 0.5846883811710828,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5114919563289732,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9824561403508771,
+              "coverage_hits": 56,
+              "generator": "Gen3",
+              "layout": 0.9649122807017544,
+              "layout_hits": 55,
+              "loss": 0.5574584155399193,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6214240649792676,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.6483790878361712,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 23667
+    },
+    {
+      "eligible": false,
+      "macro_candidate_coverage": 0.99125,
+      "macro_layout": 0.9824342105263157,
+      "macro_loss": 0.5538384614610968,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 789,
+      "pooled_layout_hits": 782,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.9875,
+          "layout": 0.975,
+          "loss": 0.3414739722677041,
+          "strata": [
+            {
+              "candidate_coverage": 0.9875,
+              "coverage_hits": 79,
+              "generator": "straight_strip",
+              "layout": 0.975,
+              "layout_hits": 78,
+              "loss": 0.3414739722677041,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 0.9916666666666667,
+          "layout": 0.9916666666666667,
+          "loss": 0.5591283011562596,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5054265661087508,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.5097630956218022,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6174993554673468,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6038241874271383,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 0.9916666666666667,
+          "layout": 0.9833333333333333,
+          "loss": 0.5805033986049238,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.48445435556738325,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.5472990058595315,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6226395043544471,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6676207286383335,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9916666666666667,
+          "layout": 0.9747807017543859,
+          "loss": 0.5926718476865716,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5054324650283282,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 57,
+              "generator": "Gen3",
+              "layout": 0.9824561403508771,
+              "layout_hits": 56,
+              "loss": 0.5567879226202002,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.95,
+              "layout_hits": 57,
+              "loss": 0.6505690074836215,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.6578979956141363,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 25667
+    },
+    {
+      "eligible": false,
+      "macro_candidate_coverage": 0.99,
+      "macro_layout": 0.9849342105263157,
+      "macro_loss": 0.5593905329024044,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 788,
+      "pooled_layout_hits": 784,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.9875,
+          "layout": 0.9875,
+          "loss": 0.3188716771546751,
+          "strata": [
+            {
+              "candidate_coverage": 0.9875,
+              "coverage_hits": 79,
+              "generator": "straight_strip",
+              "layout": 0.9875,
+              "layout_hits": 79,
+              "loss": 0.3188716771546751,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 0.9958333333333333,
+          "layout": 0.9916666666666667,
+          "loss": 0.5721272003867419,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.526903452623325,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.5159230041982872,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.6283910462865606,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6172912984387949,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 0.9916666666666667,
+          "layout": 0.9875,
+          "loss": 0.5882591630002328,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.48882132992148397,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.5557108519831673,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6340378432922686,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6744666268040116,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9833333333333333,
+          "layout": 0.9747807017543859,
+          "loss": 0.5979581872361481,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5110984724403048,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 57,
+              "generator": "Gen3",
+              "layout": 0.9824561403508771,
+              "layout_hits": 56,
+              "loss": 0.5481888805715065,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.6553339902001123,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.95,
+              "coverage_hits": 57,
+              "generator": "Gen5",
+              "layout": 0.95,
+              "layout_hits": 57,
+              "loss": 0.6772114057326689,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 27667
+    },
+    {
+      "eligible": true,
+      "macro_candidate_coverage": 0.995,
+      "macro_layout": 0.9861184210526316,
+      "macro_loss": 0.5457071438520986,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 792,
+      "pooled_layout_hits": 785,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 1.0,
+          "layout": 0.975,
+          "loss": 0.3469533015100751,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 80,
+              "generator": "straight_strip",
+              "layout": 0.975,
+              "layout_hits": 78,
+              "loss": 0.3469533015100751,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 0.9958333333333333,
+          "layout": 0.9958333333333333,
+          "loss": 0.5463369118050719,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.48900064909830687,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.5082746446602234,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.5826624589972198,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6054098944645375,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 0.9916666666666667,
+          "layout": 0.9833333333333333,
+          "loss": 0.5780657782685011,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.4680029078697165,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.5571307012345642,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6374040843763699,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6497254195933541,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 0.9958333333333333,
+          "layout": 0.9828947368421053,
+          "loss": 0.5789700222633974,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.49004575351718815,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 57,
+              "generator": "Gen3",
+              "layout": 0.9649122807017544,
+              "layout_hits": 55,
+              "loss": 0.554223591549338,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6111822531325742,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6604284908544893,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 29667
+    },
+    {
+      "eligible": true,
+      "macro_candidate_coverage": 0.99625,
+      "macro_layout": 0.9861184210526316,
+      "macro_loss": 0.5658628838713959,
+      "negatives": 800,
+      "pairs": 1596,
+      "pooled_coverage_hits": 793,
+      "pooled_layout_hits": 785,
+      "positives": 796,
+      "stages": {
+        "strict_straight": {
+          "candidate_coverage": 0.9875,
+          "layout": 0.975,
+          "loss": 0.3350790813623462,
+          "strata": [
+            {
+              "candidate_coverage": 0.9875,
+              "coverage_hits": 79,
+              "generator": "straight_strip",
+              "layout": 0.975,
+              "layout_hits": 78,
+              "loss": 0.3350790813623462,
+              "negatives": 80,
+              "pairs": 160,
+              "positives": 80
+            }
+          ],
+          "weight": 0.1
+        },
+        "v17.5": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9916666666666667,
+          "loss": 0.5699357031792871,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.5026174997522806,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 1.0,
+              "layout_hits": 59,
+              "loss": 0.5348675254137576,
+              "negatives": 60,
+              "pairs": 119,
+              "positives": 59
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6052980585799863,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6369597289711237,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v17_filtered": {
+          "candidate_coverage": 0.9916666666666667,
+          "layout": 0.9833333333333333,
+          "loss": 0.6021270901857254,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.47132817982540776,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen3",
+              "layout": 0.9666666666666667,
+              "layout_hits": 58,
+              "loss": 0.5699056969412292,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 0.9833333333333333,
+              "coverage_hits": 59,
+              "generator": "Gen4",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6769738836601997,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6903006003160651,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        },
+        "v18": {
+          "candidate_coverage": 1.0,
+          "layout": 0.9870614035087719,
+          "loss": 0.6024537924188587,
+          "strata": [
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen2",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.4907740026091536,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 57,
+              "generator": "Gen3",
+              "layout": 0.9649122807017544,
+              "layout_hits": 55,
+              "loss": 0.5878118033894998,
+              "negatives": 60,
+              "pairs": 117,
+              "positives": 57
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen4",
+              "layout": 1.0,
+              "layout_hits": 60,
+              "loss": 0.6497895514902969,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            },
+            {
+              "candidate_coverage": 1.0,
+              "coverage_hits": 60,
+              "generator": "Gen5",
+              "layout": 0.9833333333333333,
+              "layout_hits": 59,
+              "loss": 0.6814398121864845,
+              "negatives": 60,
+              "pairs": 120,
+              "positives": 60
+            }
+          ],
+          "weight": 0.3
+        }
+      },
+      "update": 31667
+    }
+  ],
+  "caveats": [
+    "Correlated augmentation views are not independent mother images.",
+    "The selected U29667 does not replace user-fixed U31667 in the running fresh-head experiment.",
+    "Layout tolerance is 0.005 absolute; this selection does not establish monotonic improvement."
+  ],
+  "eligible_updates": [
+    5667,
+    7667,
+    9667,
+    13667,
+    29667,
+    31667
+  ],
+  "independent_arithmetic_matches_all_16": true,
+  "local_summary_sha256": "d755087fe6c685c500b21e96ffd4f26fab7b5fa93eb274b0119576946502de3e",
+  "maximum_macro_layout": 0.9910526315789473,
+  "minimum_eligible_macro_layout": 0.9860526315789473,
+  "model": {
+    "model_state_sha256": "d84ebe9594aca5c713f6951564119669a06414e79e11eec11623f59142b8d945",
+    "sha256": "d1973408f36d13e6457640f7246a23826cecf29c2dc818d300f86b6462de66cd",
+    "update": 29667
+  },
+  "negative_count": 800,
+  "omitted": "Raw per-pair predictions, pair/fragment identities, datasets, models and local paths are not published.",
+  "pair_count_per_candidate": 1596,
+  "positive_count": 796,
+  "raw_evidence_sha256": "3b9fa1b1260305fb3f6ff662d8d3b9373073c56c017226d04701f11eac32c927",
+  "scan_finished_cst": "2026-10-03T15:35:39+08:00",
+  "schema": "b3-select-scan-public-aggregate/1",
+  "selected_update": 29667,
+  "selection_role": "new_SIM_SELECT_only",
+  "source_hashes": {
+    "export_complete": "f985cd30e0902e5da53e4f99a1c2c9e728e4ed759593451c8dd464a41d311ae1",
+    "protocol": "1969f248f2679daa9f07ba5f7664cb51e0ec2df992660748235090a9028f99a5",
+    "scan_actual_return": "f7e04b00d55d323f2199a946f36199ff775314ab24a42e0e41d120a6fb41f9eb",
+    "scan_complete": "dcc7737f13eee16f066334971b170375c555eb0718fe8e13c6fb4898bd9cddb9"
+  },
+  "task3_overlay_applied": false,
+  "verification_finished_cst": "2026-10-03T15:58:17+08:00"
+}

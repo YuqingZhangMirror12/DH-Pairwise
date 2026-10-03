@@ -1,0 +1,46 @@
+{
+  "dispatch_sha256": "d4f70aef66683944bf7155dee20cc04e3654574d3aeb2eef8e303e0f22f42f12",
+  "evidence_time_cst": "2026-10-03T15:48:30+08:00",
+  "final_results_available": false,
+  "final_training_complete": false,
+  "formal_update_budget_per_head": 31667,
+  "formal_updates_observed": null,
+  "gate_phases_actual_returns": [
+    0,
+    0,
+    0
+  ],
+  "limitation": "This is a timestamped startup snapshot, not a live status or final experiment result.",
+  "matcher_file_sha256": "01c7070242c943861c1d44a6c5df4a5b463bb369a26439f9fbb053ea1faf6ac1",
+  "matcher_retrained": false,
+  "matcher_update": 31667,
+  "native_gradient_and_resume_checks_passed": true,
+  "new_cal_pairs": 1587,
+  "new_select_pairs": 1596,
+  "patch": {
+    "formal_launch_unix": 1791013617.5396378,
+    "gpus": [
+      0,
+      1
+    ]
+  },
+  "schema": "b3-endpoint-dual-head-startup-public/1",
+  "source_inventory_sha256": "83f9fccb8b3fc5cc999a7032c615ae8ebc1efc3a5b8a39421cc9ee2575b6dd58",
+  "startup_receipt_sha256": "ebf5c20ea673296f8071c53634ffe9158a51c206306a92815da9ace6f8662172",
+  "stats": {
+    "formal_launch_unix": 1791013616.8954751,
+    "gpus": [
+      2,
+      3
+    ]
+  },
+  "status": "formal_processes_started_after_native_gpu_gates",
+  "task3_overlay_applied": false,
+  "topology": {
+    "accumulate": 1,
+    "effective_batch": 32,
+    "microbatch_per_rank": 16,
+    "world_size": 2
+  },
+  "train_changed": false
+}
